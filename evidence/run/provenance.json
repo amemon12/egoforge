@@ -1,0 +1,67 @@
+{
+  "run_id": "60b3583947acfaa4",
+  "identity": {
+    "config": {
+      "version": "1.0",
+      "fps": 30.0,
+      "reprojection_warn_px": 15.0,
+      "reprojection_fail_px": 50.0,
+      "transform_fail_m": 0.01,
+      "bone_relative_warn": 0.35,
+      "speed_warn_mps": 2.5,
+      "acceleration_warn_mps2": 40.0,
+      "quaternion_norm_tolerance": 0.01,
+      "smoothing_window_frames": 7,
+      "imu_gap_warn_s": 0.025,
+      "review_budget": 36,
+      "media_sample_stride": 30,
+      "ui_frame_stride": 3
+    },
+    "source_manifest_sha256": "6f4476a0dd6e1123ff43085d7fd09c1c456bedc7bb9994ad1ce06ad86eb5527c",
+    "code": {
+      "__init__.py": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+      "__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "benchmark.py": "4bc88768453c018c90a2e05032e594ea0ed178aa929ad2702b31cdbd9d3b4deb",
+      "cli.py": "1e4166d3af4d521b3a0ad2817c08383407afba53a2123523df5768b5769b6708",
+      "data.py": "2345efb0ebae302793afeb6303b1bd8090fa2855e0c0b1bfe0f579b4e547dd2c",
+      "media.py": "ca26a0e7d219e0036fde61d773c5d40ebff595c2dbed79aa3f529232e75347c3",
+      "pipeline.py": "9572d03ecfea7ff56ce3b8443dfbfc3dfea84b591f7ff9730fc5f25a02c37d24",
+      "quality.py": "bb8d870a7b7218af075dfc4dfe0a86975b439b216f883d68195461698f25e1e2",
+      "recurrence.py": "bebac821dd1d9f9d74ca0b6f5d5981e4bc442a5834deca22da7eec74784b20af",
+      "review.py": "0c2f3f06a83d2034c528e5e0627188c03e91e95e6368db237dbc904d420608de",
+      "synchronization.py": "e25cbd3209605f4e9e0f79cf75e94c5541ba0deda2e3aa621f250b4381d77781",
+      "temporal.py": "7380c28819c7c5f2dada5ac262c4392ba83f11ecbbd2f89f1c100dc77c1b0554",
+      "static/app.js": "882d8706480bb0ce92d2173799b258b8aba18bf8cf6ca90918bd8b1564c6eb7f",
+      "static/index.html": "8f80efb2e9fec04bad122dae55493e12731b3d13ba04426e5970cf4bb959a1be",
+      "static/style.css": "db7f0d1478e5a9a8aa21b740609fd445cdb1d372e431adca6f27ea43dee7951e"
+    },
+    "with_media": true
+  },
+  "created_utc": "2026-11-19T21:50:22.269780+00:00",
+  "python": "3.12.15",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "pyarrow": "21.0.0",
+    "scipy": "1.16.0",
+    "Pillow": "11.3.0"
+  },
+  "lineage": {
+    "inherited": [
+      "3D joints",
+      "camera pose",
+      "2D keypoints",
+      "source tasks",
+      "IMU",
+      "video"
+    ],
+    "new": [
+      "cleaned kinematic features",
+      "QA flags",
+      "motion phase proposals",
+      "recurrence candidates",
+      "risk-ranked review queue"
+    ],
+    "human_annotation_count": 0
+  }
+}

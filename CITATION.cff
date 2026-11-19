@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use EgoForge, cite this software and retain the Humanola source dataset attribution in THIRD_PARTY_NOTICES.md."
+type: software
+title: "EgoForge: Auditable Multimodal Egocentric Motion Annotation and Quality Control"
+version: 0.1.0
+repository-code: "https://github.com/amemon12/egoforge"
+date-released: 2026-11-19
+authors:
+  - name: "EgoForge contributors"
+abstract: "A reproducible temporal motion annotation and quality-control pipeline over a pinned subset of an existing egocentric dataset. New labels are automatic proposals; source hand poses and recordings are inherited."
+keywords:
+  - egocentric video
+  - temporal annotation
+  - multimodal quality assurance
+  - data provenance
+references:
+  - type: data
+    title: "Humanola Egocentric Hand-Pose Dataset — Sample Delivery"
+    authors:
+      - name: "Humanola, Inc."
+    year: 2026
+    url: "https://huggingface.co/datasets/humanola-inc/egocentric-sample"
+    version: "3c6e782911b4e82a56b288f6830d3a43bdb85d49"
+    license: CC-BY-4.0
+    notes: "Source recordings, poses, calibration, task metadata, and IMU. Retrieved 2026-11-19."

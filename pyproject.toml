@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "egoforge"
+version = "0.1.0"
+description = "Auditable multimodal egocentric motion annotation and quality control"
+requires-python = ">=3.11,<3.13"
+dependencies = ["numpy==1.26.4", "pandas==2.2.3", "pyarrow==21.0.0", "scipy==1.16.0", "opencv-python-headless==4.11.0.86", "Pillow==11.3.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+egoforge = "egoforge.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["egoforge*"]
+
+[tool.setuptools.package-data]
+egoforge = ["static/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

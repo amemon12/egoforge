@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>EgoForge</title>
+  <link rel="stylesheet" href="/assets/style.css">
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="/" aria-label="EgoForge home">EgoForge</a>
+  <nav aria-label="Workspace" role="tablist">
+    <button id="tab-review" role="tab" aria-selected="true" aria-controls="review-view">Review</button>
+    <button id="tab-benchmarks" role="tab" aria-selected="false" aria-controls="benchmarks-view">Benchmarks</button>
+  </nav>
+  <a class="export-link" href="/api/export" target="_blank" rel="noopener">Export decisions</a>
+</header>
+<main>
+  <section id="review-view" role="tabpanel" aria-labelledby="tab-review">
+    <div class="run-line" aria-label="Run metrics">
+      <span><strong id="metric-frames">—</strong> frames</span>
+      <span><strong id="metric-segments">—</strong> proposed segments</span>
+      <span><strong id="metric-reviewed">0</strong> human decisions</span>
+      <span id="metric-episodes">Loading…</span>
+      <span class="sr-only"><span id="metric-queue">—</span> queued; <span id="episode-count">—</span> episodes</span>
+    </div>
+    <div class="workspace">
+      <section class="viewer-panel" aria-label="Video and motion annotations">
+        <div class="viewer-heading">
+          <div class="episode-picker"><label for="episode-select">Episode</label><select id="episode-select" aria-label="Episode"><option>Loading…</option></select></div>
+          <span class="proposal-note">Machine proposals</span>
+        </div>
+        <h1 id="episode-title" class="sr-only">Loading episode…</h1>
+        <div class="camera-tabs" role="group" aria-label="Camera view">
+          <button class="selected" data-camera="main_stereo_left">Head · left</button>
+          <button data-camera="main_stereo_right">Head · right</button>
+          <button data-camera="aux_left">Wrist · left</button>
+          <button data-camera="aux_right">Wrist · right</button>
+        </div>
+        <div class="video-stage" id="video-stage">
+          <video id="video" preload="metadata" playsinline></video>
+          <canvas id="overlay" aria-label="Inherited 2D hand skeleton overlay"></canvas>
+          <div id="video-empty" class="video-empty" hidden><h2>Video not downloaded</h2><p>Motion data and quality checks are available for this episode.</p></div>
+          <div class="video-corner" id="video-corner"><span id="camera-label">Head / left</span></div>
+          <div class="frame-stamp" id="frame-stamp">Frame —</div>
+        </div>
+        <div class="transport">
+          <button id="play" class="play" aria-label="Play or pause">▶</button>
+          <span id="timecode">00:00.00 / 00:00.00</span>
+          <input type="range" id="seek" aria-label="Seek episode" min="0" max="1" step="0.033333" value="0">
+          <button id="overlay-toggle" class="quiet-button" aria-pressed="true">Skeleton on</button>
+          <select id="speed" aria-label="Playback speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option></select>
+        </div>
+        <div class="timeline-block">
+          <div class="chart-label"><span>Motion phases</span><span id="phase-current">—</span></div>
+          <canvas id="phase-timeline" height="27" aria-label="Clickable proposed phase timeline"></canvas>
+          <div class="legend" id="phase-legend"></div>
+        </div>
+        <div class="signal-block">
+          <div class="chart-label"><span>Wrist speed <span class="muted">· world coordinates</span></span><span><b class="left-key">L</b> <b class="right-key">R</b> <span id="signal-unit">m/s</span></span></div>
+          <canvas id="signal-chart" height="85" aria-label="Wrist speed over time"></canvas>
+          <div class="chart-axis"><span>0s</span><span id="axis-end">—</span></div>
+        </div>
+        <div class="viewer-footer"><span>Space: play / pause · ← →: previous / next segment</span><span id="sampling-note">Sampled display; full data in exports.</span></div>
+      </section>
+      <aside class="review-panel" aria-label="Segment review">
+        <div class="panel-heading"><h2>Segment</h2><span id="review-status">Unreviewed</span></div>
+        <div class="selected-segment"><h3 id="segment-state">—</h3><span id="segment-range" class="mono muted">—</span><div id="segment-id" class="tiny-id">—</div></div>
+        <dl class="evidence-grid">
+          <div><dt>Quality score</dt><dd id="quality-value">—</dd></div><div><dt>Uncertainty</dt><dd id="uncertainty-value">—</dd></div>
+          <div><dt>Left speed</dt><dd id="left-speed">—</dd></div><div><dt>Right speed</dt><dd id="right-speed">—</dd></div>
+          <div><dt>Wrist distance</dt><dd id="wrist-distance">—</dd></div><div><dt>Review priority</dt><dd id="priority-value">—</dd></div>
+        </dl>
+        <p class="uncertainty-note">Scores are heuristic, not accuracy estimates.</p>
+        <div class="qa-section"><h3>Quality checks</h3><ul id="qa-findings"></ul></div>
+        <form id="review-form">
+          <label for="reviewer">Reviewer</label><input id="reviewer" required maxlength="120" placeholder="Name or reviewer ID" autocomplete="off">
+          <label for="correction">Phase correction</label><select id="correction"><option value="">Keep proposed phase</option></select>
+          <label for="review-note">Note</label><textarea id="review-note" rows="2" maxlength="4000" placeholder="Required for a rejection or correction"></textarea>
+          <div class="review-actions"><button type="button" id="approve" class="primary-button">Approve</button><button type="button" id="reject">Reject</button><button type="button" id="correct">Correct</button></div>
+          <p class="journal-note">Decisions are saved locally with reviewer and timestamp.</p><p id="review-message" role="status"></p>
+        </form>
+      </aside>
+    </div>
+    <details class="queue-section">
+      <summary>Review queue <span id="queue-count" class="muted">—</span></summary>
+      <div class="queue-filters"><button class="selected" id="queue-only">Priority queue</button><button id="all-segments">All segments</button></div>
+      <div class="table-scroll"><table><thead><tr><th>Segment</th><th>Episode</th><th>Phase</th><th>Interval</th><th>Priority</th><th>Review</th><th></th></tr></thead><tbody id="queue-body"></tbody></table></div>
+    </details>
+    <p class="source-note">Source: <a href="https://huggingface.co/datasets/humanola-inc/egocentric-sample" target="_blank" rel="noopener">Humanola · CC BY 4.0</a>. Hand tracks are inherited; motion phases and quality checks are generated by EgoForge.</p>
+  </section>
+  <section id="benchmarks-view" role="tabpanel" aria-labelledby="tab-benchmarks" hidden>
+    <div class="benchmark-heading"><h1>Benchmarks</h1><button id="refresh-benchmarks">Refresh</button></div>
+    <p id="benchmark-status" role="status">Loading measured results…</p>
+    <div id="benchmark-content" hidden>
+      <p id="benchmark-scope" class="muted"></p>
+      <section class="benchmark-section"><h2>Processing time</h2><p class="section-note">Local CPU measurements. Repeated runs use cached source files.</p><div class="table-scroll"><table><thead><tr><th>Stage</th><th>Median</th><th>95th percentile</th><th>Frames / second</th></tr></thead><tbody id="benchmark-performance"></tbody></table></div><p id="benchmark-memory" class="section-note"></p></section>
+      <section class="benchmark-section"><h2>Temporal decoding</h2><dl id="benchmark-ablation" class="benchmark-facts"></dl><p class="section-note">Fewer phase switches measures smoothing, not semantic accuracy.</p></section>
+      <section class="benchmark-section"><h2>Corruption tests</h2><p id="benchmark-fault-summary" class="section-note"></p><div class="table-scroll"><table><thead><tr><th>Injected fault</th><th>Magnitude</th><th>New detections / eligible targets</th><th>Sensitivity</th></tr></thead><tbody id="benchmark-robustness"></tbody></table></div><p class="section-note">Targets already flagged in the original data are excluded from the new-detection denominator. These synthetic tests do not measure annotation accuracy.</p></section>
+      <details class="benchmark-details"><summary>Environment and limitations</summary><pre id="benchmark-environment"></pre><ul id="benchmark-limitations"></ul></details>
+    </div>
+  </section>
+</main>
+<div id="load-error" role="alert" hidden></div>
+</body>
+</html>

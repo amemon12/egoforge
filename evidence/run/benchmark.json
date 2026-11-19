@@ -1,0 +1,88 @@
+{
+  "evaluation_type": "synthetic corruption sensitivity on a real source episode",
+  "episode_id": 4,
+  "seed": 0,
+  "cases": [
+    {
+      "case": "world_coordinate_translation_15cm",
+      "expected_rule": "world_camera_inconsistent",
+      "injected_frame_count": 90,
+      "detected_injected_frames": 90,
+      "sensitivity": 1.0,
+      "severity": "deliberately threshold-visible synthetic corruption"
+    },
+    {
+      "case": "image_keypoints_displaced_120px",
+      "expected_rule": "reprojection_extreme",
+      "injected_frame_count": 90,
+      "detected_injected_frames": 90,
+      "sensitivity": 1.0,
+      "severity": "deliberately threshold-visible synthetic corruption"
+    },
+    {
+      "case": "nonunit_quaternion_scale_1.2",
+      "expected_rule": "quaternion_norm_invalid",
+      "injected_frame_count": 90,
+      "detected_injected_frames": 90,
+      "sensitivity": 1.0,
+      "severity": "deliberately threshold-visible synthetic corruption"
+    },
+    {
+      "case": "presence_flag_contradiction",
+      "expected_rule": "presence_payload_conflict",
+      "injected_frame_count": 90,
+      "detected_injected_frames": 90,
+      "sensitivity": 1.0,
+      "severity": "deliberately threshold-visible synthetic corruption"
+    },
+    {
+      "case": "tracking_quality_contradiction",
+      "expected_rule": "tracking_flag_conflict",
+      "injected_frame_count": 90,
+      "detected_injected_frames": 90,
+      "sensitivity": 1.0,
+      "severity": "deliberately threshold-visible synthetic corruption"
+    },
+    {
+      "case": "finger_segment_stretched_20cm",
+      "expected_rule": "bone_length_extreme",
+      "injected_frame_count": 90,
+      "detected_injected_frames": 90,
+      "sensitivity": 1.0,
+      "severity": "deliberately threshold-visible synthetic corruption"
+    },
+    {
+      "case": "duplicate_frame_timestamp",
+      "expected_rule": "timestamp_or_frame_discontinuity",
+      "injected_frame_count": 1,
+      "detected_injected_frames": 1,
+      "sensitivity": 1.0,
+      "severity": "deliberately threshold-visible synthetic corruption"
+    },
+    {
+      "case": "imu_timestamp_frame_clock_mismatch_200ms",
+      "expected_rule": "main_stereo_imu_clock_inconsistent",
+      "injected_frame_count": 2904,
+      "detected_injected_frames": 2904,
+      "sensitivity": 1.0,
+      "severity": "deliberately threshold-visible synthetic corruption"
+    },
+    {
+      "case": "imu_burst_removed_1s",
+      "expected_rule": "main_stereo_imu_coverage_gap",
+      "injected_frame_count": 27,
+      "detected_injected_frames": 27,
+      "sensitivity": 1.0,
+      "severity": "deliberately threshold-visible synthetic corruption"
+    }
+  ],
+  "cases_passing": 9,
+  "total_cases": 9,
+  "untouched_source_flag_rate": 0.25654269972451793,
+  "limitations": [
+    "Perturbations are seeded severe faults, not naturally adjudicated errors.",
+    "Sensitivity is not phase annotation accuracy or QA precision.",
+    "Untouched-source flags are unadjudicated and must not be called false positives.",
+    "No independent human phase reference labels are available."
+  ]
+}

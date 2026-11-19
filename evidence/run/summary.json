@@ -1,0 +1,66 @@
+{
+  "project": "EgoForge",
+  "version": "0.1.0",
+  "run_id": "60b3583947acfaa4",
+  "source_name": "Humanola egocentric-sample",
+  "source_url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample",
+  "source_license": "CC BY 4.0",
+  "total_episodes": 9,
+  "total_frames": 48272,
+  "total_imu_samples": 964596,
+  "duration_s": 1609.0666666666666,
+  "segments": 1804,
+  "quarantined_frames": 1852,
+  "flagged_frames": 26514,
+  "review_queue_size": 36,
+  "human_reviewed": 0,
+  "label_status": "machine_proposed",
+  "metadata_overrides": [
+    {
+      "field": "meta/info.json.total_tasks",
+      "source_value": 1,
+      "derived_value": 8,
+      "reason": "count of indexed tasks in source tasks.jsonl",
+      "method": "metadata_reconciliation",
+      "status": "derived_override"
+    },
+    {
+      "episode_id": 2,
+      "field": "task_index",
+      "source_value": 0,
+      "derived_value": 2,
+      "affected_rows": 7201,
+      "reason": "episode task table and task lookup agree; frame table conflicts",
+      "status": "derived_override_requires_semantic_review",
+      "source_sha256": "28517fd97296f81dd22981628efcc1213da2adb4d97e6faa1a449a473276d485"
+    }
+  ],
+  "states": {
+    "bilateral_coordinated": 4264,
+    "bilateral_independent": 25273,
+    "unknown": 1863,
+    "left_dominant": 4406,
+    "right_dominant": 7188,
+    "quiescent": 5278
+  },
+  "qa_rule_counts": {
+    "bone_length_outlier": 150,
+    "reprojection_extreme": 1849,
+    "reprojection_residual": 26480,
+    "hand_unobserved": 3,
+    "tracking_flag_conflict": 1,
+    "wrist_speed_outlier": 3
+  },
+  "source_bytes": 787644615,
+  "recurrence_bouts": 2,
+  "synthetic_cases_passing": 9,
+  "synthetic_cases_total": 9,
+  "scope": "9 episodes of pose/IMU; all four video cameras decoded for episode 4",
+  "limitations": [
+    "Motion proposals are heuristic and uncalibrated; no independent human gold labels.",
+    "Existing 3D/2D poses and task names are inherited from the source.",
+    "No inferred physical contact, force, successful action count, or task success.",
+    "Splits are episode-disjoint only; participant/session IDs unavailable.",
+    "Synthetic fault tests do not establish annotation accuracy."
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "humanola-inc/egocentric-sample",
+  "revision": "3c6e782911b4e82a56b288f6830d3a43bdb85d49",
+  "source_url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Humanola, Inc. \u2014 Humanola Egocentric Hand-Pose Dataset \u2014 Sample Delivery",
+  "retrieved_at": "2026-11-19T21:00:49.341614+00:00",
+  "retrieval_metadata_url": "https://huggingface.co/api/datasets/humanola-inc/egocentric-sample/revision/3c6e782911b4e82a56b288f6830d3a43bdb85d49",
+  "retrieval_tree_url": "https://huggingface.co/api/datasets/humanola-inc/egocentric-sample/tree/3c6e782911b4e82a56b288f6830d3a43bdb85d49?recursive=true&limit=1000",
+  "episodes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "video_selection": "all",
+  "video_episodes": [
+    4
+  ],
+  "total_source_bytes": 787644615,
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/README.md",
+      "bytes": 9526,
+      "sha256": "85018f2f3490f6815b295a679b9bea37dd544cb32f0ae48d263ad2cecf3c2628",
+      "upstream_checksum_algorithm": "git-blob-sha1",
+      "upstream_checksum": "90c21b834eaf0329476c9511d25d409c94745454",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "meta/info.json",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/meta/info.json",
+      "bytes": 17785,
+      "sha256": "791a0caabd6402b3680374c9813c604a0e640616fc60a205f389beb498860b61",
+      "upstream_checksum_algorithm": "git-blob-sha1",
+      "upstream_checksum": "2249910a156f351792318f284dc2b39ee27db39d",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "meta/modality.json",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/meta/modality.json",
+      "bytes": 2404,
+      "sha256": "0703620dc01db09b0af274146c8944efb579339dac80582c5249db42a3c8d15e",
+      "upstream_checksum_algorithm": "git-blob-sha1",
+      "upstream_checksum": "5308f4bae0dc4456397ccdc0a6a57c3fa772096b",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "meta/episodes.jsonl",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/meta/episodes.jsonl",
+      "bytes": 1544,
+      "sha256": "fcb13ac198c6f630fa663bea0c9e1ce40679640d8f60a4ecbf99ce0a05c83f18",
+      "upstream_checksum_algorithm": "git-blob-sha1",
+      "upstream_checksum": "90104ef366c3573f10138dbfe909b9de1babe6b4",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "meta/tasks.jsonl",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/meta/tasks.jsonl",
+      "bytes": 381,
+      "sha256": "beec1486c498e9922719de503dc88202cdd2482b4d5202336d966756008e5646",
+      "upstream_checksum_algorithm": "git-blob-sha1",
+      "upstream_checksum": "3b47c955f210968f5300227d030b2621f466d564",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "meta/camera_intrinsics.json",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/meta/camera_intrinsics.json",
+      "bytes": 31890,
+      "sha256": "6c7d67b5bae49a869eec4650d9e1d793e0a0aa530ea41f8f8abe9f85d5cc5cba",
+      "upstream_checksum_algorithm": "git-blob-sha1",
+      "upstream_checksum": "3169b2aa47f200cb33af8f136c27920bafd8c9c1",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/imu_info.json",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/imu_info.json",
+      "bytes": 2752,
+      "sha256": "78ab10b300a6a2989601e08b9d064df10e470e2acd3e4d2691bcdfd9da6111a7",
+      "upstream_checksum_algorithm": "git-blob-sha1",
+      "upstream_checksum": "58784070a6231cd0c485d9fd2bbec7e877440758",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "data/chunk-000/episode_000000.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/data/chunk-000/episode_000000.parquet",
+      "bytes": 18005729,
+      "sha256": "23523f686e2c4d942bc414b61e25cbc3c2569fc4ae65deb810e943a6fbd72f8c",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "23523f686e2c4d942bc414b61e25cbc3c2569fc4ae65deb810e943a6fbd72f8c",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/main_stereo/episode_000000.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/main_stereo/episode_000000.parquet",
+      "bytes": 2464954,
+      "sha256": "0d299c7f1c2b2866b0bfd62766a8956bd5eee3a426180d7dbc4ea7179412ef62",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "0d299c7f1c2b2866b0bfd62766a8956bd5eee3a426180d7dbc4ea7179412ef62",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_left/episode_000000.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_left/episode_000000.parquet",
+      "bytes": 2617530,
+      "sha256": "ad9d293c51d8382249ac5ceab5add3cb33b8725f3d83020adb0ca414c822af7f",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "ad9d293c51d8382249ac5ceab5add3cb33b8725f3d83020adb0ca414c822af7f",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_right/episode_000000.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_right/episode_000000.parquet",
+      "bytes": 2624371,
+      "sha256": "1fdbe2aa958381c2ea745a09255bd053a85c9996542ac9f91011eadc01c4f283",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "1fdbe2aa958381c2ea745a09255bd053a85c9996542ac9f91011eadc01c4f283",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "data/chunk-000/episode_000001.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/data/chunk-000/episode_000001.parquet",
+      "bytes": 9418624,
+      "sha256": "2d306b8dfcf263dff99069db7afc5bb561ccd6d873a266ece59749df8e863f0a",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "2d306b8dfcf263dff99069db7afc5bb561ccd6d873a266ece59749df8e863f0a",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/main_stereo/episode_000001.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/main_stereo/episode_000001.parquet",
+      "bytes": 1187469,
+      "sha256": "74fc582fa802e8d5e10126a25fd03a379ac3afe19ee1a9a74b9f4b359f5bfa9c",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "74fc582fa802e8d5e10126a25fd03a379ac3afe19ee1a9a74b9f4b359f5bfa9c",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_left/episode_000001.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_left/episode_000001.parquet",
+      "bytes": 1317868,
+      "sha256": "78e8893b0dc618aaac09411e322b73f82a7d0a279bf7eb797424146dbeec9e92",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "78e8893b0dc618aaac09411e322b73f82a7d0a279bf7eb797424146dbeec9e92",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_right/episode_000001.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_right/episode_000001.parquet",
+      "bytes": 1309687,
+      "sha256": "893eb99be5bec6f94a51a329f88c9276ba8349de96805fad6592efc0a2457a7a",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "893eb99be5bec6f94a51a329f88c9276ba8349de96805fad6592efc0a2457a7a",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "data/chunk-000/episode_000002.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/data/chunk-000/episode_000002.parquet",
+      "bytes": 15889559,
+      "sha256": "28517fd97296f81dd22981628efcc1213da2adb4d97e6faa1a449a473276d485",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "28517fd97296f81dd22981628efcc1213da2adb4d97e6faa1a449a473276d485",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/main_stereo/episode_000002.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/main_stereo/episode_000002.parquet",
+      "bytes": 2155999,
+      "sha256": "f985afa5bf340414a4bee4e1d11f44db38314913b9b9702e24016d09f292fc4c",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "f985afa5bf340414a4bee4e1d11f44db38314913b9b9702e24016d09f292fc4c",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_left/episode_000002.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_left/episode_000002.parquet",
+      "bytes": 2257258,
+      "sha256": "f89bd747f6a2596c7c85001c3dbc17b45fb919c9d4292930e23bdf1f3b95efd4",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "f89bd747f6a2596c7c85001c3dbc17b45fb919c9d4292930e23bdf1f3b95efd4",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_right/episode_000002.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_right/episode_000002.parquet",
+      "bytes": 2261515,
+      "sha256": "22dfa662c5bf958365ea63a8838338a63686e06fc63f71a98ef9e4cf9c6304fe",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "22dfa662c5bf958365ea63a8838338a63686e06fc63f71a98ef9e4cf9c6304fe",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "data/chunk-000/episode_000003.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/data/chunk-000/episode_000003.parquet",
+      "bytes": 19543385,
+      "sha256": "d54619acaccf00ba6290a15231591e96b742ae433d45aa4ace0576701e5ce1e1",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "d54619acaccf00ba6290a15231591e96b742ae433d45aa4ace0576701e5ce1e1",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/main_stereo/episode_000003.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/main_stereo/episode_000003.parquet",
+      "bytes": 2711127,
+      "sha256": "9ffab4f9888c30de7299a659844362ad88fb7a02905b5e3dbd7e3f9d60269164",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "9ffab4f9888c30de7299a659844362ad88fb7a02905b5e3dbd7e3f9d60269164",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_left/episode_000003.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_left/episode_000003.parquet",
+      "bytes": 2806224,
+      "sha256": "51294ea5f57a600661d651e65f5e6462f6e68a39e2f6cc63918bc01339b323fd",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "51294ea5f57a600661d651e65f5e6462f6e68a39e2f6cc63918bc01339b323fd",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_right/episode_000003.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_right/episode_000003.parquet",
+      "bytes": 2857817,
+      "sha256": "dfe46fdd5ae2098e9e6a823762b245dec35ea5b3c336d545d42765c133c8edda",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "dfe46fdd5ae2098e9e6a823762b245dec35ea5b3c336d545d42765c133c8edda",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "data/chunk-000/episode_000004.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/data/chunk-000/episode_000004.parquet",
+      "bytes": 7071991,
+      "sha256": "e268e027ee8c7322377dbd91ffd284ef3ff80a5f53b6c31a53d2261f1e856ac5",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "e268e027ee8c7322377dbd91ffd284ef3ff80a5f53b6c31a53d2261f1e856ac5",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/main_stereo/episode_000004.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/main_stereo/episode_000004.parquet",
+      "bytes": 846485,
+      "sha256": "8884108805ddbc5afb504b73a9eaff720c5d5bc1b2684e4e5a0badb6b1ceabac",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "8884108805ddbc5afb504b73a9eaff720c5d5bc1b2684e4e5a0badb6b1ceabac",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_left/episode_000004.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_left/episode_000004.parquet",
+      "bytes": 905377,
+      "sha256": "7ec8a71acf1da5481db6b6bac834ab53a002cda668539f124541384e2012e36f",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "7ec8a71acf1da5481db6b6bac834ab53a002cda668539f124541384e2012e36f",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_right/episode_000004.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_right/episode_000004.parquet",
+      "bytes": 912591,
+      "sha256": "2b660280c79885f76a2c0e8c143ee1ca2a8ad5dc35a07c3b68de3556dbd84b52",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "2b660280c79885f76a2c0e8c143ee1ca2a8ad5dc35a07c3b68de3556dbd84b52",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "videos/chunk-000/observation.images.main_stereo_left/episode_000004.mp4",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/videos/chunk-000/observation.images.main_stereo_left/episode_000004.mp4",
+      "bytes": 144662439,
+      "sha256": "756f05a1b3c0da578a40aaa00d430ea04f2bbc09c15cfcf05b3def5121ada483",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "756f05a1b3c0da578a40aaa00d430ea04f2bbc09c15cfcf05b3def5121ada483",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "videos/chunk-000/observation.images.main_stereo_right/episode_000004.mp4",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/videos/chunk-000/observation.images.main_stereo_right/episode_000004.mp4",
+      "bytes": 169785394,
+      "sha256": "39d2da5dba9537eb9c6d39dd39bf1060616bd2e97a0cce6689faa9b24b047d60",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "39d2da5dba9537eb9c6d39dd39bf1060616bd2e97a0cce6689faa9b24b047d60",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "videos/chunk-000/observation.images.aux_left/episode_000004.mp4",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/videos/chunk-000/observation.images.aux_left/episode_000004.mp4",
+      "bytes": 144126673,
+      "sha256": "f4be5b593d427daf266534b30e1797c7f8ddc5c9df9d256bbb5858f8dbcbf89c",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "f4be5b593d427daf266534b30e1797c7f8ddc5c9df9d256bbb5858f8dbcbf89c",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "videos/chunk-000/observation.images.aux_right/episode_000004.mp4",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/videos/chunk-000/observation.images.aux_right/episode_000004.mp4",
+      "bytes": 175257207,
+      "sha256": "4abee5c407966d640d07af802eda3926e6093fd8a661ae581888c130dbbbf81c",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "4abee5c407966d640d07af802eda3926e6093fd8a661ae581888c130dbbbf81c",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "data/chunk-000/episode_000005.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/data/chunk-000/episode_000005.parquet",
+      "bytes": 11262846,
+      "sha256": "a02f4891b82fd19d19a2be7ade8bbe5c9cc66662827e5922108f72fc9da95618",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "a02f4891b82fd19d19a2be7ade8bbe5c9cc66662827e5922108f72fc9da95618",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/main_stereo/episode_000005.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/main_stereo/episode_000005.parquet",
+      "bytes": 1366389,
+      "sha256": "3ccfad89e93bc4caaab2dc518d98d6d1f5c010a1533dbd21030d2eb7d33a9de1",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "3ccfad89e93bc4caaab2dc518d98d6d1f5c010a1533dbd21030d2eb7d33a9de1",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_left/episode_000005.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_left/episode_000005.parquet",
+      "bytes": 1439576,
+      "sha256": "7cfcfca4e3092a048b37a2822fca11b0eae7f0828ce97100747d34f0485d1560",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "7cfcfca4e3092a048b37a2822fca11b0eae7f0828ce97100747d34f0485d1560",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_right/episode_000005.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_right/episode_000005.parquet",
+      "bytes": 1477640,
+      "sha256": "cbc07ee0ce0ed02a17cab496722066ba48a77014c2f91e0cbfc8a7acbe0f2072",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "cbc07ee0ce0ed02a17cab496722066ba48a77014c2f91e0cbfc8a7acbe0f2072",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "data/chunk-000/episode_000006.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/data/chunk-000/episode_000006.parquet",
+      "bytes": 7808313,
+      "sha256": "7b52ef137a883f1ced4c110b6b533d9bd9351fdce6ea0bfcff283d865e71573a",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "7b52ef137a883f1ced4c110b6b533d9bd9351fdce6ea0bfcff283d865e71573a",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/main_stereo/episode_000006.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/main_stereo/episode_000006.parquet",
+      "bytes": 952399,
+      "sha256": "b25830d841db8aa683df17ece9090745565501ef9f4d46385f07fce38529ed48",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "b25830d841db8aa683df17ece9090745565501ef9f4d46385f07fce38529ed48",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_left/episode_000006.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_left/episode_000006.parquet",
+      "bytes": 1047510,
+      "sha256": "0e9f19c7ca0ca1ec78538854941fdf1608897f54a9661509dbd22fa153b4c6a2",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "0e9f19c7ca0ca1ec78538854941fdf1608897f54a9661509dbd22fa153b4c6a2",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_right/episode_000006.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_right/episode_000006.parquet",
+      "bytes": 1032208,
+      "sha256": "201655be17ffd6b515fb9a8fe2be4382f016759d15bce3551ccdef0d60caf21e",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "201655be17ffd6b515fb9a8fe2be4382f016759d15bce3551ccdef0d60caf21e",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "data/chunk-000/episode_000007.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/data/chunk-000/episode_000007.parquet",
+      "bytes": 8662768,
+      "sha256": "b009a2ef8bb86c2fb2b683e9cb747775e54e51a31cf77e15d8a053d856e4d6f4",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "b009a2ef8bb86c2fb2b683e9cb747775e54e51a31cf77e15d8a053d856e4d6f4",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/main_stereo/episode_000007.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/main_stereo/episode_000007.parquet",
+      "bytes": 1052999,
+      "sha256": "1fdebddd6f172aa645b943f1e67ba802782070210a7095bd922c6bf77404b604",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "1fdebddd6f172aa645b943f1e67ba802782070210a7095bd922c6bf77404b604",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_left/episode_000007.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_left/episode_000007.parquet",
+      "bytes": 1147068,
+      "sha256": "e39f6ad12de8cb1d5f75c3f8aa22c3f5c007b649df2079d5eb769a1a8b4d135c",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "e39f6ad12de8cb1d5f75c3f8aa22c3f5c007b649df2079d5eb769a1a8b4d135c",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_right/episode_000007.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_right/episode_000007.parquet",
+      "bytes": 1136502,
+      "sha256": "98a7f40846bf9d6bdd94c7dcec187c52f3d292ec8414c136e26a5edefd1522df",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "98a7f40846bf9d6bdd94c7dcec187c52f3d292ec8414c136e26a5edefd1522df",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "data/chunk-000/episode_000008.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/data/chunk-000/episode_000008.parquet",
+      "bytes": 11694000,
+      "sha256": "0e36f82563e82c609ff3fadc7555f6093e20a2faa0aa52029135c9a733356330",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "0e36f82563e82c609ff3fadc7555f6093e20a2faa0aa52029135c9a733356330",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/main_stereo/episode_000008.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/main_stereo/episode_000008.parquet",
+      "bytes": 1438571,
+      "sha256": "0d48b22105c03e77c960101bc70c111670ab61f2bd2ba4bc86d85d59b891377f",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "0d48b22105c03e77c960101bc70c111670ab61f2bd2ba4bc86d85d59b891377f",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_left/episode_000008.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_left/episode_000008.parquet",
+      "bytes": 1517955,
+      "sha256": "c3f269774d1b4a49bf66092b18b955afb0b7fcbed5b4e562186e5769d2bf41ae",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "c3f269774d1b4a49bf66092b18b955afb0b7fcbed5b4e562186e5769d2bf41ae",
+      "license": "CC-BY-4.0",
+      "modified": false
+    },
+    {
+      "path": "imu/chunk-000/aux_right/episode_000008.parquet",
+      "url": "https://huggingface.co/datasets/humanola-inc/egocentric-sample/resolve/3c6e782911b4e82a56b288f6830d3a43bdb85d49/imu/chunk-000/aux_right/episode_000008.parquet",
+      "bytes": 1544316,
+      "sha256": "a4d33e16bc6f6fa35618196f9e062d037b191d9e30e326ebcea33d883881aa32",
+      "upstream_checksum_algorithm": "sha256",
+      "upstream_checksum": "a4d33e16bc6f6fa35618196f9e062d037b191d9e30e326ebcea33d883881aa32",
+      "license": "CC-BY-4.0",
+      "modified": false
+    }
+  ]
+}

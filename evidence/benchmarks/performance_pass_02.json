@@ -1,0 +1,248 @@
+{
+  "frames": 48272,
+  "imu_samples": 964596,
+  "stage_seconds": {
+    "load": 6.31660241773352,
+    "quality": 2.128933960106224,
+    "temporal": 1.5211377090308815,
+    "recurrence": 0.6224815418245271,
+    "review_selection": 0.23897908302024007
+  },
+  "pipeline_wall_s": 11.092400000081398,
+  "timed_stage_sum_s": 10.828134711715393,
+  "peak_rss_bytes": 739622912,
+  "episode_timings": [
+    {
+      "episode_id": 0,
+      "frames": 8371,
+      "load": 1.1625946669373661,
+      "quality": 0.3918279589852318,
+      "temporal": 0.28201295889448375,
+      "recurrence": 0.06020433304365724
+    },
+    {
+      "episode_id": 1,
+      "frames": 3931,
+      "load": 0.5191492919111624,
+      "quality": 0.1751171670621261,
+      "temporal": 0.1305264999391511,
+      "recurrence": 0.05703658296260983
+    },
+    {
+      "episode_id": 2,
+      "frames": 7201,
+      "load": 0.8965705829905346,
+      "quality": 0.3112586250063032,
+      "temporal": 0.2189578750403598,
+      "recurrence": 0.05964533402584493
+    },
+    {
+      "episode_id": 3,
+      "frames": 9241,
+      "load": 1.20666258293204,
+      "quality": 0.4054787919158116,
+      "temporal": 0.258909875061363,
+      "recurrence": 0.1326746669365093
+    },
+    {
+      "episode_id": 4,
+      "frames": 2904,
+      "load": 0.36930979206226766,
+      "quality": 0.1242540420498699,
+      "temporal": 0.09440183301921934,
+      "recurrence": 0.04748537496197969
+    },
+    {
+      "episode_id": 5,
+      "frames": 4801,
+      "load": 0.6183436249848455,
+      "quality": 0.21002833300735801,
+      "temporal": 0.16419187502469867,
+      "recurrence": 0.08182237495202571
+    },
+    {
+      "episode_id": 6,
+      "frames": 3211,
+      "load": 0.41722695901989937,
+      "quality": 0.14061370806302875,
+      "temporal": 0.10685387498233467,
+      "recurrence": 0.04187345795799047
+    },
+    {
+      "episode_id": 7,
+      "frames": 3601,
+      "load": 0.4666911249514669,
+      "quality": 0.1587729169987142,
+      "temporal": 0.11059866705909371,
+      "recurrence": 0.06565383297856897
+    },
+    {
+      "episode_id": 8,
+      "frames": 5011,
+      "load": 0.6600537919439375,
+      "quality": 0.21158241701778024,
+      "temporal": 0.1546842500101775,
+      "recurrence": 0.07608558400534093
+    }
+  ],
+  "ablation": [
+    {
+      "episode_id": 0,
+      "frames": 8371,
+      "raw_transitions": 1394,
+      "temporal_transitions": 199,
+      "minimum_dwell_frames": 9,
+      "raw_short_interior_runs": 1136,
+      "temporal_short_interior_runs": 0,
+      "abstained_frames": 970,
+      "quarantined_frames": 964,
+      "proposed_segments": 384,
+      "recurrence_bouts": 0,
+      "recurrence_cycles": 0
+    },
+    {
+      "episode_id": 1,
+      "frames": 3931,
+      "raw_transitions": 654,
+      "temporal_transitions": 106,
+      "minimum_dwell_frames": 9,
+      "raw_short_interior_runs": 519,
+      "temporal_short_interior_runs": 0,
+      "abstained_frames": 59,
+      "quarantined_frames": 58,
+      "proposed_segments": 124,
+      "recurrence_bouts": 0,
+      "recurrence_cycles": 0
+    },
+    {
+      "episode_id": 2,
+      "frames": 7201,
+      "raw_transitions": 1545,
+      "temporal_transitions": 200,
+      "minimum_dwell_frames": 9,
+      "raw_short_interior_runs": 1368,
+      "temporal_short_interior_runs": 0,
+      "abstained_frames": 568,
+      "quarantined_frames": 565,
+      "proposed_segments": 294,
+      "recurrence_bouts": 0,
+      "recurrence_cycles": 0
+    },
+    {
+      "episode_id": 3,
+      "frames": 9241,
+      "raw_transitions": 1966,
+      "temporal_transitions": 179,
+      "minimum_dwell_frames": 9,
+      "raw_short_interior_runs": 1703,
+      "temporal_short_interior_runs": 0,
+      "abstained_frames": 87,
+      "quarantined_frames": 87,
+      "proposed_segments": 194,
+      "recurrence_bouts": 0,
+      "recurrence_cycles": 0
+    },
+    {
+      "episode_id": 4,
+      "frames": 2904,
+      "raw_transitions": 787,
+      "temporal_transitions": 122,
+      "minimum_dwell_frames": 9,
+      "raw_short_interior_runs": 729,
+      "temporal_short_interior_runs": 0,
+      "abstained_frames": 0,
+      "quarantined_frames": 0,
+      "proposed_segments": 123,
+      "recurrence_bouts": 0,
+      "recurrence_cycles": 0
+    },
+    {
+      "episode_id": 5,
+      "frames": 4801,
+      "raw_transitions": 1248,
+      "temporal_transitions": 218,
+      "minimum_dwell_frames": 9,
+      "raw_short_interior_runs": 1146,
+      "temporal_short_interior_runs": 0,
+      "abstained_frames": 0,
+      "quarantined_frames": 0,
+      "proposed_segments": 219,
+      "recurrence_bouts": 0,
+      "recurrence_cycles": 0
+    },
+    {
+      "episode_id": 6,
+      "frames": 3211,
+      "raw_transitions": 624,
+      "temporal_transitions": 141,
+      "minimum_dwell_frames": 9,
+      "raw_short_interior_runs": 534,
+      "temporal_short_interior_runs": 0,
+      "abstained_frames": 89,
+      "quarantined_frames": 89,
+      "proposed_segments": 158,
+      "recurrence_bouts": 0,
+      "recurrence_cycles": 0
+    },
+    {
+      "episode_id": 7,
+      "frames": 3601,
+      "raw_transitions": 1051,
+      "temporal_transitions": 116,
+      "minimum_dwell_frames": 9,
+      "raw_short_interior_runs": 979,
+      "temporal_short_interior_runs": 0,
+      "abstained_frames": 0,
+      "quarantined_frames": 0,
+      "proposed_segments": 117,
+      "recurrence_bouts": 2,
+      "recurrence_cycles": 10
+    },
+    {
+      "episode_id": 8,
+      "frames": 5011,
+      "raw_transitions": 758,
+      "temporal_transitions": 176,
+      "minimum_dwell_frames": 9,
+      "raw_short_interior_runs": 623,
+      "temporal_short_interior_runs": 0,
+      "abstained_frames": 90,
+      "quarantined_frames": 89,
+      "proposed_segments": 191,
+      "recurrence_bouts": 0,
+      "recurrence_cycles": 0
+    }
+  ],
+  "deterministic_result_sha256": "ad079afc979de0ba5ee2c9a689da73280bf2cc0da094088664f4c7819f69a7b8",
+  "review_coverage": {
+    "queue_size": 36,
+    "episodes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "states": [
+      "bilateral_coordinated",
+      "bilateral_independent",
+      "left_dominant",
+      "quiescent",
+      "right_dominant",
+      "unknown"
+    ],
+    "state_counts": {
+      "unknown": 31,
+      "right_dominant": 1,
+      "quiescent": 1,
+      "left_dominant": 1,
+      "bilateral_independent": 1,
+      "bilateral_coordinated": 1
+    }
+  },
+  "process_wall_s_including_imports": 12.444984292029403
+}

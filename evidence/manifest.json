@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "run_id": "60b3583947acfaa4",
+  "benchmark_id": "54d58eeb004f668b",
+  "artifacts": {
+    "README.md": "c5256f320cd1aa9134aab29a11b86d7646a5c02531306b617b23156f796cdfea",
+    "benchmarks/artifact_manifest.json": "bde58a425ca969c0330e2105ad3ce0fe73e4d2e8b8b827eb1c8446df718b88dd",
+    "benchmarks/benchmark.json": "7f6b60dcb74da91e527c6b9ad24c928a8e1d4565589b46dc831d73ddb057fc71",
+    "benchmarks/performance.csv": "a2b1a653886e40ba662e452617dad9511c9ebe66bb71f592a93d2c6dfa42dac4",
+    "benchmarks/performance_pass_01.json": "6040a409338b9ecd2cd2ae7b693132bc9140e22528c53553fa9abf2852edf3ff",
+    "benchmarks/performance_pass_02.json": "cc5ca8905c9c243c1d11ec2f3a1fb44660f26e13fbe9572146f4f7c750e9f88f",
+    "benchmarks/performance_pass_03.json": "0256b45bdf34e5ff8bd3d1bd16732bee2d26aae71244e78d6030d7e283bed410",
+    "benchmarks/robustness.csv": "90fd2ac9e91614f0e044c4f76e27c32864632b21775e09a41318e2627c0ac7ff",
+    "previews/benchmarks.jpg": "3542d4ab6c9707efe182e7dd6dda464a2d917ec0f59f07a4cccda4f1df0eae63",
+    "previews/contact_sheet.jpg": "dd5c0af902b5c47a14759d28340fff346ab33d2c8cfc4e9d9f21d97facdae555",
+    "previews/review.jpg": "dd6ceab7624131e7a0687d24c1a163cb88ae41ec373a7ce0393d89c8924286d3",
+    "run/REPORT.md": "5e2f1c0269e93d6560c1622b3276f4387c65fe67c4fcc5b9a873906037f868e5",
+    "run/ablation.json": "f022dbd966386289e149f54d8399069ba8d32ee07a2b940348dae09a55f97216",
+    "run/benchmark.json": "666ac57f27d306c560b43bc02134c70af0b7b59e84cd3704955a412008204cd5",
+    "run/cleaning_log.jsonl": "8b5455a545cfebe7292cbba39892dba065725b26f97f8c689d2e7aa54522d0a0",
+    "run/config.json": "b0de565519b57602959e42b92e8383c1760bd57ec0f6d7ef707dc123acf98a0f",
+    "run/episodes.json": "db5b1dff725eb01df01e020e7ba2c8abb7600fd4b3935965b47f9a3bd5d2cb84",
+    "run/media_qa.json": "45faa97bd003c45cfe800b91c76119b330f744ed557b1e071adc31776944126e",
+    "run/provenance.json": "ab1b91a8fa941bd40849c724f8f78ca15d59c6060a458174408d0d93ee130ef6",
+    "run/review_queue.json": "ae05556a44cab40b1adc41e8984194ad7f3e21a1304b66660c7e2c28250ca3e5",
+    "run/splits.json": "7ac99bf4d0813fc42dfb2d04491e4684f2fc88b8b35591580ec0d36bb09b9ab3",
+    "run/summary.json": "ef98d9ce71a9fbf5bd705ec14b3d8d4ee40c2bc6bfd06443350fcdf73d6357ce",
+    "source/README.md": "85018f2f3490f6815b295a679b9bea37dd544cb32f0ae48d263ad2cecf3c2628",
+    "source/source_manifest.json": "6f4476a0dd6e1123ff43085d7fd09c1c456bedc7bb9994ad1ce06ad86eb5527c"
+  }
+}

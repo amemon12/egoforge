@@ -1,0 +1,3924 @@
+{
+  "episode_id": 4,
+  "scope": "all decoded frames; image metrics sampled at one-second intervals",
+  "cameras": {
+    "main_stereo_left": {
+      "metadata_frame_count": 2904,
+      "decoded_frames": 2904,
+      "fps": 30.0,
+      "matches_pose_frame_count": true,
+      "sampled_frames": 97,
+      "low_detail_count": 0,
+      "clipped_exposure_count": 0
+    },
+    "main_stereo_right": {
+      "metadata_frame_count": 2904,
+      "decoded_frames": 2904,
+      "fps": 30.0,
+      "matches_pose_frame_count": true,
+      "sampled_frames": 97,
+      "low_detail_count": 0,
+      "clipped_exposure_count": 0
+    },
+    "aux_left": {
+      "metadata_frame_count": 2904,
+      "decoded_frames": 2904,
+      "fps": 30.0,
+      "matches_pose_frame_count": true,
+      "sampled_frames": 97,
+      "low_detail_count": 0,
+      "clipped_exposure_count": 0
+    },
+    "aux_right": {
+      "metadata_frame_count": 2904,
+      "decoded_frames": 2904,
+      "fps": 30.0,
+      "matches_pose_frame_count": true,
+      "sampled_frames": 97,
+      "low_detail_count": 0,
+      "clipped_exposure_count": 0
+    }
+  },
+  "sampled_frames": [
+    {
+      "frame_index": 0,
+      "timestamp_s": 0.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 109.06912630208333,
+      "laplacian_variance_384x240": 1488.0853120392928,
+      "clipped_fraction": 0.028188368055555555,
+      "dhash": "f8f5546a64545a5a",
+      "flags": []
+    },
+    {
+      "frame_index": 30,
+      "timestamp_s": 1.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 104.07958680555555,
+      "laplacian_variance_384x240": 1724.9489461940016,
+      "clipped_fraction": 0.051721354166666664,
+      "dhash": "f2f0ca556ce4927a",
+      "flags": []
+    },
+    {
+      "frame_index": 60,
+      "timestamp_s": 2.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 86.02473784722223,
+      "laplacian_variance_384x240": 1610.3075297018925,
+      "clipped_fraction": 0.0604296875,
+      "dhash": "fab4f2e2ac4c967a",
+      "flags": []
+    },
+    {
+      "frame_index": 90,
+      "timestamp_s": 3.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 86.65494618055556,
+      "laplacian_variance_384x240": 1475.6974174669053,
+      "clipped_fraction": 0.054149739583333335,
+      "dhash": "f4b56874ea8cd47a",
+      "flags": []
+    },
+    {
+      "frame_index": 120,
+      "timestamp_s": 4.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 94.45254991319445,
+      "laplacian_variance_384x240": 1521.0158926839003,
+      "clipped_fraction": 0.042030381944444445,
+      "dhash": "f8e5f0f2408cac7a",
+      "flags": []
+    },
+    {
+      "frame_index": 150,
+      "timestamp_s": 5.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 96.36900043402778,
+      "laplacian_variance_384x240": 1637.20643205419,
+      "clipped_fraction": 0.04298914930555556,
+      "dhash": "e8d6e8ea6a8cf4da",
+      "flags": []
+    },
+    {
+      "frame_index": 180,
+      "timestamp_s": 6.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 96.92837022569445,
+      "laplacian_variance_384x240": 1827.2390792050771,
+      "clipped_fraction": 0.0452109375,
+      "dhash": "e9eae8e6e68cb2ba",
+      "flags": []
+    },
+    {
+      "frame_index": 210,
+      "timestamp_s": 7.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 98.10439279513889,
+      "laplacian_variance_384x240": 1909.3009960587822,
+      "clipped_fraction": 0.05047569444444444,
+      "dhash": "e9eaf0f8eaccb2ba",
+      "flags": []
+    },
+    {
+      "frame_index": 240,
+      "timestamp_s": 8.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 91.0565546875,
+      "laplacian_variance_384x240": 1768.0812694591946,
+      "clipped_fraction": 0.04858420138888889,
+      "dhash": "f8d6e874ea8c92fa",
+      "flags": []
+    },
+    {
+      "frame_index": 270,
+      "timestamp_s": 9.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 88.00201605902778,
+      "laplacian_variance_384x240": 1587.418556488414,
+      "clipped_fraction": 0.05472178819444445,
+      "dhash": "f192e868ee8c94fa",
+      "flags": []
+    },
+    {
+      "frame_index": 300,
+      "timestamp_s": 10.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 91.49409288194444,
+      "laplacian_variance_384x240": 1510.9252444786496,
+      "clipped_fraction": 0.045501736111111114,
+      "dhash": "f9d6e8f2ca8cb47a",
+      "flags": []
+    },
+    {
+      "frame_index": 330,
+      "timestamp_s": 11.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 90.68574913194445,
+      "laplacian_variance_384x240": 1570.2095086414429,
+      "clipped_fraction": 0.04530555555555556,
+      "dhash": "fc96e876ca8c94fa",
+      "flags": []
+    },
+    {
+      "frame_index": 360,
+      "timestamp_s": 12.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 90.65505295138888,
+      "laplacian_variance_384x240": 1495.6007531284993,
+      "clipped_fraction": 0.04371354166666667,
+      "dhash": "fd94e8764a8cd47a",
+      "flags": []
+    },
+    {
+      "frame_index": 390,
+      "timestamp_s": 13.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 92.67269140625,
+      "laplacian_variance_384x240": 1551.574171023781,
+      "clipped_fraction": 0.04606467013888889,
+      "dhash": "f8d6e872ca8cb4fa",
+      "flags": []
+    },
+    {
+      "frame_index": 420,
+      "timestamp_s": 14.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 89.63797048611112,
+      "laplacian_variance_384x240": 1541.689898538472,
+      "clipped_fraction": 0.045890190972222224,
+      "dhash": "ecb6f874ca94947a",
+      "flags": []
+    },
+    {
+      "frame_index": 450,
+      "timestamp_s": 15.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 90.02343619791667,
+      "laplacian_variance_384x240": 1474.8300588809118,
+      "clipped_fraction": 0.04577994791666667,
+      "dhash": "f497e8744e8c947a",
+      "flags": []
+    },
+    {
+      "frame_index": 480,
+      "timestamp_s": 16.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 88.76181336805556,
+      "laplacian_variance_384x240": 1515.4048592036447,
+      "clipped_fraction": 0.045173177083333335,
+      "dhash": "ecbff8744a8c947a",
+      "flags": []
+    },
+    {
+      "frame_index": 510,
+      "timestamp_s": 17.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 87.4159626736111,
+      "laplacian_variance_384x240": 1480.847174919505,
+      "clipped_fraction": 0.04489105902777778,
+      "dhash": "e9faf072ca8c92fa",
+      "flags": []
+    },
+    {
+      "frame_index": 540,
+      "timestamp_s": 18.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 85.84204079861111,
+      "laplacian_variance_384x240": 1630.224967428019,
+      "clipped_fraction": 0.04508940972222222,
+      "dhash": "e9f475f8ccd496fa",
+      "flags": []
+    },
+    {
+      "frame_index": 570,
+      "timestamp_s": 19.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 93.42461631944444,
+      "laplacian_variance_384x240": 1452.282134760633,
+      "clipped_fraction": 0.03411024305555556,
+      "dhash": "f898f8786694d47a",
+      "flags": []
+    },
+    {
+      "frame_index": 600,
+      "timestamp_s": 20.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 92.30839713541667,
+      "laplacian_variance_384x240": 1460.2350940693748,
+      "clipped_fraction": 0.03397309027777778,
+      "dhash": "f89978f2c6d4d47a",
+      "flags": []
+    },
+    {
+      "frame_index": 630,
+      "timestamp_s": 21.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 91.02478168402777,
+      "laplacian_variance_384x240": 1521.009331585448,
+      "clipped_fraction": 0.03692361111111111,
+      "dhash": "f4d976e8e4d494fa",
+      "flags": []
+    },
+    {
+      "frame_index": 660,
+      "timestamp_s": 22.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 92.7021736111111,
+      "laplacian_variance_384x240": 1491.533986830417,
+      "clipped_fraction": 0.037985677083333336,
+      "dhash": "fcdb707844dc947a",
+      "flags": []
+    },
+    {
+      "frame_index": 690,
+      "timestamp_s": 23.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 92.21248263888889,
+      "laplacian_variance_384x240": 1636.3521346846921,
+      "clipped_fraction": 0.03446831597222222,
+      "dhash": "f4db7178448c927a",
+      "flags": []
+    },
+    {
+      "frame_index": 720,
+      "timestamp_s": 24.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 93.81347612847222,
+      "laplacian_variance_384x240": 1521.328919992329,
+      "clipped_fraction": 0.03377300347222222,
+      "dhash": "fcca786c424c5a7a",
+      "flags": []
+    },
+    {
+      "frame_index": 750,
+      "timestamp_s": 25.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 92.29321527777778,
+      "laplacian_variance_384x240": 1503.158107637005,
+      "clipped_fraction": 0.0383515625,
+      "dhash": "e9dae0706a8e54fa",
+      "flags": []
+    },
+    {
+      "frame_index": 780,
+      "timestamp_s": 26.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 93.69473741319445,
+      "laplacian_variance_384x240": 1407.6219101092256,
+      "clipped_fraction": 0.03643359375,
+      "dhash": "f4c87970628c767a",
+      "flags": []
+    },
+    {
+      "frame_index": 810,
+      "timestamp_s": 27.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 95.3034787326389,
+      "laplacian_variance_384x240": 1484.8727470322597,
+      "clipped_fraction": 0.03769748263888889,
+      "dhash": "f1c4e8706a8e567a",
+      "flags": []
+    },
+    {
+      "frame_index": 840,
+      "timestamp_s": 28.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 109.19179730902778,
+      "laplacian_variance_384x240": 1469.854063734714,
+      "clipped_fraction": 0.03671484375,
+      "dhash": "f8fc7b70688cccb4",
+      "flags": []
+    },
+    {
+      "frame_index": 870,
+      "timestamp_s": 29.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 104.18470616319445,
+      "laplacian_variance_384x240": 1588.7570902929185,
+      "clipped_fraction": 0.035983072916666664,
+      "dhash": "f8f078e8e88cacf2",
+      "flags": []
+    },
+    {
+      "frame_index": 900,
+      "timestamp_s": 30.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 95.09295399305556,
+      "laplacian_variance_384x240": 1447.6941150010664,
+      "clipped_fraction": 0.04102907986111111,
+      "dhash": "f8e97864648cccf2",
+      "flags": []
+    },
+    {
+      "frame_index": 930,
+      "timestamp_s": 31.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 96.86361241319445,
+      "laplacian_variance_384x240": 1416.4122283227946,
+      "clipped_fraction": 0.03869921875,
+      "dhash": "f8e67874688c9cf2",
+      "flags": []
+    },
+    {
+      "frame_index": 960,
+      "timestamp_s": 32.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 94.74545616319445,
+      "laplacian_variance_384x240": 1495.9407412775065,
+      "clipped_fraction": 0.03939626736111111,
+      "dhash": "f8ef7c68648c94fa",
+      "flags": []
+    },
+    {
+      "frame_index": 990,
+      "timestamp_s": 33.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 92.98645659722222,
+      "laplacian_variance_384x240": 1454.031139774558,
+      "clipped_fraction": 0.03901779513888889,
+      "dhash": "f8ca7868668c54ba",
+      "flags": []
+    },
+    {
+      "frame_index": 1020,
+      "timestamp_s": 34.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 94.8732443576389,
+      "laplacian_variance_384x240": 1463.788606812159,
+      "clipped_fraction": 0.03418663194444444,
+      "dhash": "f0cb6d6a664c767a",
+      "flags": []
+    },
+    {
+      "frame_index": 1050,
+      "timestamp_s": 35.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 94.5910625,
+      "laplacian_variance_384x240": 1555.4314855522582,
+      "clipped_fraction": 0.03779644097222222,
+      "dhash": "f0cb70686e8c767a",
+      "flags": []
+    },
+    {
+      "frame_index": 1080,
+      "timestamp_s": 36.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 92.24421831597222,
+      "laplacian_variance_384x240": 1523.6932884682549,
+      "clipped_fraction": 0.039901475694444445,
+      "dhash": "f8b0f878468c767a",
+      "flags": []
+    },
+    {
+      "frame_index": 1110,
+      "timestamp_s": 37.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 92.52338324652777,
+      "laplacian_variance_384x240": 1494.1276215277778,
+      "clipped_fraction": 0.03871875,
+      "dhash": "f990f074548c76fa",
+      "flags": []
+    },
+    {
+      "frame_index": 1140,
+      "timestamp_s": 38.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 92.8109396701389,
+      "laplacian_variance_384x240": 1479.3146868100578,
+      "clipped_fraction": 0.03649088541666667,
+      "dhash": "f998f470544c763a",
+      "flags": []
+    },
+    {
+      "frame_index": 1170,
+      "timestamp_s": 39.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 92.16870833333333,
+      "laplacian_variance_384x240": 1527.7622900687322,
+      "clipped_fraction": 0.037834635416666665,
+      "dhash": "f998f4744c8c767a",
+      "flags": []
+    },
+    {
+      "frame_index": 1200,
+      "timestamp_s": 40.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 86.0945368923611,
+      "laplacian_variance_384x240": 1462.7339682486029,
+      "clipped_fraction": 0.046151475694444444,
+      "dhash": "f8bcf2746c94767a",
+      "flags": []
+    },
+    {
+      "frame_index": 1230,
+      "timestamp_s": 41.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 90.7093359375,
+      "laplacian_variance_384x240": 1494.4663613171049,
+      "clipped_fraction": 0.04033029513888889,
+      "dhash": "f998f4744c8c74fa",
+      "flags": []
+    },
+    {
+      "frame_index": 1260,
+      "timestamp_s": 42.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 93.67524956597222,
+      "laplacian_variance_384x240": 1546.4207838100856,
+      "clipped_fraction": 0.0404140625,
+      "dhash": "f9d878744c8e767a",
+      "flags": []
+    },
+    {
+      "frame_index": 1290,
+      "timestamp_s": 43.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 91.5405546875,
+      "laplacian_variance_384x240": 1716.2990228930812,
+      "clipped_fraction": 0.03935720486111111,
+      "dhash": "f898f1744e8c7a7a",
+      "flags": []
+    },
+    {
+      "frame_index": 1320,
+      "timestamp_s": 44.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 92.65063064236111,
+      "laplacian_variance_384x240": 1551.2532555331716,
+      "clipped_fraction": 0.03789800347222222,
+      "dhash": "f998f1746c8c727a",
+      "flags": []
+    },
+    {
+      "frame_index": 1350,
+      "timestamp_s": 45.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 88.93179904513889,
+      "laplacian_variance_384x240": 1463.1293437020574,
+      "clipped_fraction": 0.04094401041666667,
+      "dhash": "e0b4f0756c8c767a",
+      "flags": []
+    },
+    {
+      "frame_index": 1380,
+      "timestamp_s": 46.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 92.31199392361111,
+      "laplacian_variance_384x240": 1400.0178810485793,
+      "clipped_fraction": 0.03442013888888889,
+      "dhash": "f898f4744c6c763a",
+      "flags": []
+    },
+    {
+      "frame_index": 1410,
+      "timestamp_s": 47.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 89.50455859375,
+      "laplacian_variance_384x240": 1431.2665619555812,
+      "clipped_fraction": 0.037911458333333335,
+      "dhash": "f1b4f0f46c4c767a",
+      "flags": []
+    },
+    {
+      "frame_index": 1440,
+      "timestamp_s": 48.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 85.98534288194445,
+      "laplacian_variance_384x240": 1490.733904585544,
+      "clipped_fraction": 0.041724826388888886,
+      "dhash": "f0ecf078ccdcfa7a",
+      "flags": []
+    },
+    {
+      "frame_index": 1470,
+      "timestamp_s": 49.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 88.46485980902777,
+      "laplacian_variance_384x240": 1383.7857577684192,
+      "clipped_fraction": 0.037524739583333334,
+      "dhash": "f8f870f4ec4cf67a",
+      "flags": []
+    },
+    {
+      "frame_index": 1500,
+      "timestamp_s": 50.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 90.70815538194445,
+      "laplacian_variance_384x240": 1376.7398206753198,
+      "clipped_fraction": 0.03542404513888889,
+      "dhash": "f9b470f44c6c767a",
+      "flags": []
+    },
+    {
+      "frame_index": 1530,
+      "timestamp_s": 51.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 88.13369053819444,
+      "laplacian_variance_384x240": 1447.931337539767,
+      "clipped_fraction": 0.03699652777777778,
+      "dhash": "f8b874f0ee645a7a",
+      "flags": []
+    },
+    {
+      "frame_index": 1560,
+      "timestamp_s": 52.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 85.59176215277778,
+      "laplacian_variance_384x240": 1413.5379702239568,
+      "clipped_fraction": 0.04055902777777778,
+      "dhash": "f8e860f0ec6cfa7a",
+      "flags": []
+    },
+    {
+      "frame_index": 1590,
+      "timestamp_s": 53.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 87.87975130208333,
+      "laplacian_variance_384x240": 1195.7090735536742,
+      "clipped_fraction": 0.03395789930555555,
+      "dhash": "f9f86474c464767a",
+      "flags": []
+    },
+    {
+      "frame_index": 1620,
+      "timestamp_s": 54.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 86.7161875,
+      "laplacian_variance_384x240": 1399.3508369497608,
+      "clipped_fraction": 0.0425625,
+      "dhash": "f8b87174ecdcf67a",
+      "flags": []
+    },
+    {
+      "frame_index": 1650,
+      "timestamp_s": 55.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 85.5167109375,
+      "laplacian_variance_384x240": 1290.7007694525778,
+      "clipped_fraction": 0.04108376736111111,
+      "dhash": "f8f864f8ec64f67a",
+      "flags": []
+    },
+    {
+      "frame_index": 1680,
+      "timestamp_s": 56.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 86.61809722222222,
+      "laplacian_variance_384x240": 1232.376240173976,
+      "clipped_fraction": 0.03552821180555556,
+      "dhash": "e1e86a74c4647272",
+      "flags": []
+    },
+    {
+      "frame_index": 1710,
+      "timestamp_s": 57.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 87.04739192708334,
+      "laplacian_variance_384x240": 1349.8015054415478,
+      "clipped_fraction": 0.039649739583333336,
+      "dhash": "f8b8f470ec4cf67a",
+      "flags": []
+    },
+    {
+      "frame_index": 1740,
+      "timestamp_s": 58.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 84.67356727430555,
+      "laplacian_variance_384x240": 1356.2201669640012,
+      "clipped_fraction": 0.04475260416666667,
+      "dhash": "f8e864d4ccd4b67a",
+      "flags": []
+    },
+    {
+      "frame_index": 1770,
+      "timestamp_s": 59.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 83.46320052083334,
+      "laplacian_variance_384x240": 1285.7563569240806,
+      "clipped_fraction": 0.041551215277777775,
+      "dhash": "e4f86071cc647a7a",
+      "flags": []
+    },
+    {
+      "frame_index": 1800,
+      "timestamp_s": 60.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 86.71831684027778,
+      "laplacian_variance_384x240": 1285.4533457973857,
+      "clipped_fraction": 0.039278645833333334,
+      "dhash": "f9f871f8cc6c767a",
+      "flags": []
+    },
+    {
+      "frame_index": 1830,
+      "timestamp_s": 61.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 86.34819227430556,
+      "laplacian_variance_384x240": 1409.6697680267287,
+      "clipped_fraction": 0.04250086805555556,
+      "dhash": "f8b8f074eccc567a",
+      "flags": []
+    },
+    {
+      "frame_index": 1860,
+      "timestamp_s": 62.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 87.09219444444444,
+      "laplacian_variance_384x240": 1422.8182147325115,
+      "clipped_fraction": 0.0424765625,
+      "dhash": "f8b874784464763a",
+      "flags": []
+    },
+    {
+      "frame_index": 1890,
+      "timestamp_s": 63.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 89.57549913194444,
+      "laplacian_variance_384x240": 1309.254414578544,
+      "clipped_fraction": 0.03886588541666667,
+      "dhash": "f8d8f070526c747a",
+      "flags": []
+    },
+    {
+      "frame_index": 1920,
+      "timestamp_s": 64.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 91.36547265625,
+      "laplacian_variance_384x240": 1499.4300998630051,
+      "clipped_fraction": 0.04168663194444444,
+      "dhash": "f0daf86a524c767a",
+      "flags": []
+    },
+    {
+      "frame_index": 1950,
+      "timestamp_s": 65.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 88.86479253472223,
+      "laplacian_variance_384x240": 1476.5306096958814,
+      "clipped_fraction": 0.04512977430555556,
+      "dhash": "f89bf86c4a8c767a",
+      "flags": []
+    },
+    {
+      "frame_index": 1980,
+      "timestamp_s": 66.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 88.97824782986112,
+      "laplacian_variance_384x240": 1337.3212039292891,
+      "clipped_fraction": 0.04044444444444444,
+      "dhash": "f998f06c526c767a",
+      "flags": []
+    },
+    {
+      "frame_index": 2010,
+      "timestamp_s": 67.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 91.65329817708333,
+      "laplacian_variance_384x240": 1437.3644067880844,
+      "clipped_fraction": 0.03974001736111111,
+      "dhash": "f0d9727a726e767a",
+      "flags": []
+    },
+    {
+      "frame_index": 2040,
+      "timestamp_s": 68.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 89.38480946180556,
+      "laplacian_variance_384x240": 1457.5109526438775,
+      "clipped_fraction": 0.045372395833333336,
+      "dhash": "f898f86c6c8c727a",
+      "flags": []
+    },
+    {
+      "frame_index": 2070,
+      "timestamp_s": 69.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 90.19548480902777,
+      "laplacian_variance_384x240": 1430.4219833708398,
+      "clipped_fraction": 0.04368663194444444,
+      "dhash": "f9d8f4f86cac767a",
+      "flags": []
+    },
+    {
+      "frame_index": 2100,
+      "timestamp_s": 70.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 91.3635859375,
+      "laplacian_variance_384x240": 1529.767769954352,
+      "clipped_fraction": 0.04506727430555556,
+      "dhash": "f9d87864648c767a",
+      "flags": []
+    },
+    {
+      "frame_index": 2130,
+      "timestamp_s": 71.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 89.9549162326389,
+      "laplacian_variance_384x240": 1466.4431025091803,
+      "clipped_fraction": 0.04596267361111111,
+      "dhash": "f898f0744c8c767a",
+      "flags": []
+    },
+    {
+      "frame_index": 2160,
+      "timestamp_s": 72.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 94.72297960069444,
+      "laplacian_variance_384x240": 1559.3210646900131,
+      "clipped_fraction": 0.039663194444444445,
+      "dhash": "f9d8f86c64cc727a",
+      "flags": []
+    },
+    {
+      "frame_index": 2190,
+      "timestamp_s": 73.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 102.17489539930556,
+      "laplacian_variance_384x240": 1421.7678735685938,
+      "clipped_fraction": 0.04750477430555555,
+      "dhash": "f0e090e9ec44967a",
+      "flags": []
+    },
+    {
+      "frame_index": 2220,
+      "timestamp_s": 74.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 99.99810329861111,
+      "laplacian_variance_384x240": 1707.4481584561902,
+      "clipped_fraction": 0.06699175347222222,
+      "dhash": "e0e1c39a44eecebb",
+      "flags": []
+    },
+    {
+      "frame_index": 2250,
+      "timestamp_s": 75.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 103.33934635416666,
+      "laplacian_variance_384x240": 1712.6374483913849,
+      "clipped_fraction": 0.02840972222222222,
+      "dhash": "f4ec7374c64cda7a",
+      "flags": []
+    },
+    {
+      "frame_index": 2280,
+      "timestamp_s": 76.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 101.89093836805556,
+      "laplacian_variance_384x240": 1884.388693455826,
+      "clipped_fraction": 0.027274305555555555,
+      "dhash": "f4e5757cd4ccb2fa",
+      "flags": []
+    },
+    {
+      "frame_index": 2310,
+      "timestamp_s": 77.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 93.91864105902778,
+      "laplacian_variance_384x240": 1813.1144156896328,
+      "clipped_fraction": 0.030901041666666667,
+      "dhash": "ecd56474a4cc72da",
+      "flags": []
+    },
+    {
+      "frame_index": 2340,
+      "timestamp_s": 78.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 95.96401258680555,
+      "laplacian_variance_384x240": 1540.5249239828554,
+      "clipped_fraction": 0.03432118055555555,
+      "dhash": "e8cc6c64e98cb472",
+      "flags": []
+    },
+    {
+      "frame_index": 2370,
+      "timestamp_s": 79.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 95.38353559027777,
+      "laplacian_variance_384x240": 1468.6195312457614,
+      "clipped_fraction": 0.03174088541666667,
+      "dhash": "ecc56074c4ccb272",
+      "flags": []
+    },
+    {
+      "frame_index": 2400,
+      "timestamp_s": 80.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 108.36864756944445,
+      "laplacian_variance_384x240": 1128.4285061287587,
+      "clipped_fraction": 0.011760416666666667,
+      "dhash": "ce8e9bbb78e8f2b9",
+      "flags": []
+    },
+    {
+      "frame_index": 2430,
+      "timestamp_s": 81.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 117.69809375,
+      "laplacian_variance_384x240": 1321.4883918054604,
+      "clipped_fraction": 0.013217447916666666,
+      "dhash": "c440455da8c4e9f8",
+      "flags": []
+    },
+    {
+      "frame_index": 2460,
+      "timestamp_s": 82.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 116.28913324652778,
+      "laplacian_variance_384x240": 1359.6109809441036,
+      "clipped_fraction": 0.008557291666666666,
+      "dhash": "c86840aaece6e978",
+      "flags": []
+    },
+    {
+      "frame_index": 2490,
+      "timestamp_s": 83.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 112.83497482638889,
+      "laplacian_variance_384x240": 1424.3945727396601,
+      "clipped_fraction": 0.006634114583333333,
+      "dhash": "81c1d45c68f6b0f8",
+      "flags": []
+    },
+    {
+      "frame_index": 2520,
+      "timestamp_s": 84.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 93.35335720486111,
+      "laplacian_variance_384x240": 1903.822245872286,
+      "clipped_fraction": 0.04344140625,
+      "dhash": "f8da68f4ce84d27a",
+      "flags": []
+    },
+    {
+      "frame_index": 2550,
+      "timestamp_s": 85.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 94.64511848958334,
+      "laplacian_variance_384x240": 1880.3846762758424,
+      "clipped_fraction": 0.04487760416666667,
+      "dhash": "f0e5f074e44caaba",
+      "flags": []
+    },
+    {
+      "frame_index": 2580,
+      "timestamp_s": 86.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 111.40100737847222,
+      "laplacian_variance_384x240": 1449.4058099365234,
+      "clipped_fraction": 0.01324609375,
+      "dhash": "d3d3553c74e4b8f1",
+      "flags": []
+    },
+    {
+      "frame_index": 2610,
+      "timestamp_s": 87.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 114.30370920138888,
+      "laplacian_variance_384x240": 1072.6647711690268,
+      "clipped_fraction": 0.007486111111111111,
+      "dhash": "c6a789ba346cf0b8",
+      "flags": []
+    },
+    {
+      "frame_index": 2640,
+      "timestamp_s": 88.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 84.41088932291666,
+      "laplacian_variance_384x240": 2058.797581649592,
+      "clipped_fraction": 0.05488368055555556,
+      "dhash": "ecf2e8e2948cf2fa",
+      "flags": []
+    },
+    {
+      "frame_index": 2670,
+      "timestamp_s": 89.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 80.87827039930555,
+      "laplacian_variance_384x240": 1816.4668930223254,
+      "clipped_fraction": 0.05524696180555556,
+      "dhash": "e4f3e8e48c8cf2fa",
+      "flags": []
+    },
+    {
+      "frame_index": 2700,
+      "timestamp_s": 90.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 106.87250998263889,
+      "laplacian_variance_384x240": 1196.25060160319,
+      "clipped_fraction": 0.009343315972222222,
+      "dhash": "8e4a35386a6cf0ba",
+      "flags": []
+    },
+    {
+      "frame_index": 2730,
+      "timestamp_s": 91.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 118.66019704861111,
+      "laplacian_variance_384x240": 1563.954048288133,
+      "clipped_fraction": 0.010242621527777778,
+      "dhash": "c2d3453d64eca8f1",
+      "flags": []
+    },
+    {
+      "frame_index": 2760,
+      "timestamp_s": 92.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 109.80154296875,
+      "laplacian_variance_384x240": 1119.721905277276,
+      "clipped_fraction": 0.01611675347222222,
+      "dhash": "8e52333d6d44f2da",
+      "flags": []
+    },
+    {
+      "frame_index": 2790,
+      "timestamp_s": 93.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 100.16282118055555,
+      "laplacian_variance_384x240": 1955.46902946896,
+      "clipped_fraction": 0.03957074652777778,
+      "dhash": "f8df6af4744cf4fa",
+      "flags": []
+    },
+    {
+      "frame_index": 2820,
+      "timestamp_s": 94.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 93.82048611111111,
+      "laplacian_variance_384x240": 1767.6738159174977,
+      "clipped_fraction": 0.047609809027777776,
+      "dhash": "f8e6e864ea5492fa",
+      "flags": []
+    },
+    {
+      "frame_index": 2850,
+      "timestamp_s": 95.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 107.09895399305556,
+      "laplacian_variance_384x240": 1252.3366098997328,
+      "clipped_fraction": 0.012069444444444445,
+      "dhash": "c6ae92b9716af4b1",
+      "flags": []
+    },
+    {
+      "frame_index": 2880,
+      "timestamp_s": 96.0,
+      "camera": "main_stereo_left",
+      "mean_luminance": 118.26490581597223,
+      "laplacian_variance_384x240": 1515.792307252766,
+      "clipped_fraction": 0.01190234375,
+      "dhash": "f2c9419c74d5b870",
+      "flags": []
+    },
+    {
+      "frame_index": 0,
+      "timestamp_s": 0.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 107.64340711805555,
+      "laplacian_variance_384x240": 1753.6280002094788,
+      "clipped_fraction": 0.039699652777777775,
+      "dhash": "f9d0f0eceadcb4f6",
+      "flags": []
+    },
+    {
+      "frame_index": 30,
+      "timestamp_s": 1.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 106.64055425347222,
+      "laplacian_variance_384x240": 1976.8133208380805,
+      "clipped_fraction": 0.05775173611111111,
+      "dhash": "f5ccb1eaeccc56b6",
+      "flags": []
+    },
+    {
+      "frame_index": 60,
+      "timestamp_s": 2.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 91.29669444444444,
+      "laplacian_variance_384x240": 1781.8446176029722,
+      "clipped_fraction": 0.07042447916666666,
+      "dhash": "ed68e0cb9ccca4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 90,
+      "timestamp_s": 3.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 92.19032595486111,
+      "laplacian_variance_384x240": 1757.943054500156,
+      "clipped_fraction": 0.06357682291666666,
+      "dhash": "d9f2f8acaccc64f4",
+      "flags": []
+    },
+    {
+      "frame_index": 120,
+      "timestamp_s": 4.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 98.50571006944445,
+      "laplacian_variance_384x240": 1826.9230119652216,
+      "clipped_fraction": 0.05681901041666667,
+      "dhash": "f8b2f0ececdce4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 150,
+      "timestamp_s": 5.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 99.87388541666667,
+      "laplacian_variance_384x240": 2009.2974145390076,
+      "clipped_fraction": 0.06001692708333333,
+      "dhash": "f8b0eae8ecc8e4f6",
+      "flags": []
+    },
+    {
+      "frame_index": 180,
+      "timestamp_s": 6.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 100.71872960069445,
+      "laplacian_variance_384x240": 1938.1381990728262,
+      "clipped_fraction": 0.060071614583333335,
+      "dhash": "dab4d0fae4dce474",
+      "flags": []
+    },
+    {
+      "frame_index": 210,
+      "timestamp_s": 7.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 101.103109375,
+      "laplacian_variance_384x240": 2084.6219705104827,
+      "clipped_fraction": 0.06450824652777777,
+      "dhash": "d8ccd0d89c1ce4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 240,
+      "timestamp_s": 8.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 95.25014539930555,
+      "laplacian_variance_384x240": 1965.7438598062963,
+      "clipped_fraction": 0.06721050347222222,
+      "dhash": "f278e4eabccce4fc",
+      "flags": []
+    },
+    {
+      "frame_index": 270,
+      "timestamp_s": 9.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 92.90524305555556,
+      "laplacian_variance_384x240": 1894.8454043875797,
+      "clipped_fraction": 0.06886631944444445,
+      "dhash": "d268e0ea9ccce4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 300,
+      "timestamp_s": 10.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 95.78448567708334,
+      "laplacian_variance_384x240": 1879.522633454947,
+      "clipped_fraction": 0.06172439236111111,
+      "dhash": "f2b0eae8accce4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 330,
+      "timestamp_s": 11.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 95.55951649305555,
+      "laplacian_variance_384x240": 1918.5433799531722,
+      "clipped_fraction": 0.06226171875,
+      "dhash": "d2f6e8ec9cccf4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 360,
+      "timestamp_s": 12.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 95.5732873263889,
+      "laplacian_variance_384x240": 1937.852550137367,
+      "clipped_fraction": 0.05901519097222222,
+      "dhash": "d2f2faecaccce4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 390,
+      "timestamp_s": 13.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 97.38745052083334,
+      "laplacian_variance_384x240": 1892.0245442030166,
+      "clipped_fraction": 0.06162934027777778,
+      "dhash": "d2f0e8e8accce4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 420,
+      "timestamp_s": 14.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 94.9124921875,
+      "laplacian_variance_384x240": 1874.7580309531133,
+      "clipped_fraction": 0.06225868055555556,
+      "dhash": "d5f2f4aa9ccc64f4",
+      "flags": []
+    },
+    {
+      "frame_index": 450,
+      "timestamp_s": 15.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 95.09375824652778,
+      "laplacian_variance_384x240": 1910.6338161817007,
+      "clipped_fraction": 0.05655989583333333,
+      "dhash": "d6f4eaecacc864f4",
+      "flags": []
+    },
+    {
+      "frame_index": 480,
+      "timestamp_s": 16.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 93.68585807291667,
+      "laplacian_variance_384x240": 1860.355301349663,
+      "clipped_fraction": 0.05987326388888889,
+      "dhash": "d9f0f0aa9cccf4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 510,
+      "timestamp_s": 17.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 92.54262543402778,
+      "laplacian_variance_384x240": 1823.9908309894142,
+      "clipped_fraction": 0.05813758680555556,
+      "dhash": "c9f2e0e89cccf4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 540,
+      "timestamp_s": 18.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 91.12237456597222,
+      "laplacian_variance_384x240": 1851.6722083196526,
+      "clipped_fraction": 0.05941710069444445,
+      "dhash": "caf4e8a89ccce474",
+      "flags": []
+    },
+    {
+      "frame_index": 570,
+      "timestamp_s": 19.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 96.8236150173611,
+      "laplacian_variance_384x240": 1820.2307906237943,
+      "clipped_fraction": 0.04685850694444445,
+      "dhash": "f2f0f2ec6c4ca476",
+      "flags": []
+    },
+    {
+      "frame_index": 600,
+      "timestamp_s": 20.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 96.164421875,
+      "laplacian_variance_384x240": 1817.8883149454325,
+      "clipped_fraction": 0.047700520833333336,
+      "dhash": "f2f4f8ecec4ca474",
+      "flags": []
+    },
+    {
+      "frame_index": 630,
+      "timestamp_s": 21.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 94.92726041666667,
+      "laplacian_variance_384x240": 1835.606241918375,
+      "clipped_fraction": 0.05028862847222222,
+      "dhash": "f0f078ececcce4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 660,
+      "timestamp_s": 22.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 96.10697265625,
+      "laplacian_variance_384x240": 1789.7738134294677,
+      "clipped_fraction": 0.051284288194444444,
+      "dhash": "f8f2e0ec6c4c64f4",
+      "flags": []
+    },
+    {
+      "frame_index": 690,
+      "timestamp_s": 23.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 94.81673567708333,
+      "laplacian_variance_384x240": 1833.3050351248846,
+      "clipped_fraction": 0.05037196180555555,
+      "dhash": "f8f0e8eaac4ce4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 720,
+      "timestamp_s": 24.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 95.69431336805556,
+      "laplacian_variance_384x240": 1819.601319964256,
+      "clipped_fraction": 0.048940538194444445,
+      "dhash": "f2f0f06ca44ca476",
+      "flags": []
+    },
+    {
+      "frame_index": 750,
+      "timestamp_s": 25.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 95.20697873263889,
+      "laplacian_variance_384x240": 1837.6803598944348,
+      "clipped_fraction": 0.05461284722222222,
+      "dhash": "f7f4f8e8ec4ce676",
+      "flags": []
+    },
+    {
+      "frame_index": 780,
+      "timestamp_s": 26.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 95.90230295138889,
+      "laplacian_variance_384x240": 1792.998970311365,
+      "clipped_fraction": 0.05352517361111111,
+      "dhash": "f2b0e4e9ac4ce676",
+      "flags": []
+    },
+    {
+      "frame_index": 810,
+      "timestamp_s": 27.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 96.64778689236111,
+      "laplacian_variance_384x240": 1816.8317410192371,
+      "clipped_fraction": 0.053608506944444446,
+      "dhash": "d2b0dc68ac4ce676",
+      "flags": []
+    },
+    {
+      "frame_index": 840,
+      "timestamp_s": 28.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 110.37311892361112,
+      "laplacian_variance_384x240": 1791.9821584272975,
+      "clipped_fraction": 0.04776866319444444,
+      "dhash": "f8f9f062a8dcdce4",
+      "flags": []
+    },
+    {
+      "frame_index": 870,
+      "timestamp_s": 29.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 105.65894010416666,
+      "laplacian_variance_384x240": 1909.1238480875227,
+      "clipped_fraction": 0.04667100694444445,
+      "dhash": "f9d2e878a9dcecf4",
+      "flags": []
+    },
+    {
+      "frame_index": 900,
+      "timestamp_s": 30.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 97.26505815972222,
+      "laplacian_variance_384x240": 1745.7198950798129,
+      "clipped_fraction": 0.05301822916666667,
+      "dhash": "f992f86caaccecf6",
+      "flags": []
+    },
+    {
+      "frame_index": 930,
+      "timestamp_s": 31.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 98.35800086805556,
+      "laplacian_variance_384x240": 1792.7778537268696,
+      "clipped_fraction": 0.05582421875,
+      "dhash": "e9b2e86caaccec76",
+      "flags": []
+    },
+    {
+      "frame_index": 960,
+      "timestamp_s": 32.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 97.42610416666666,
+      "laplacian_variance_384x240": 1858.1045239691086,
+      "clipped_fraction": 0.05372482638888889,
+      "dhash": "f9b0d864a4ccecf4",
+      "flags": []
+    },
+    {
+      "frame_index": 990,
+      "timestamp_s": 33.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 96.27282725694444,
+      "laplacian_variance_384x240": 1878.3093493633505,
+      "clipped_fraction": 0.05341449652777778,
+      "dhash": "f2b0e068acccf476",
+      "flags": []
+    },
+    {
+      "frame_index": 1020,
+      "timestamp_s": 34.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 96.84894661458334,
+      "laplacian_variance_384x240": 1863.2680897277075,
+      "clipped_fraction": 0.05025998263888889,
+      "dhash": "f2b4f86aaccce476",
+      "flags": []
+    },
+    {
+      "frame_index": 1050,
+      "timestamp_s": 35.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 97.11992013888889,
+      "laplacian_variance_384x240": 1883.1252276666662,
+      "clipped_fraction": 0.052323784722222225,
+      "dhash": "f9b0fa68ac4c6476",
+      "flags": []
+    },
+    {
+      "frame_index": 1080,
+      "timestamp_s": 36.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 95.99269574652777,
+      "laplacian_variance_384x240": 1853.4564323160384,
+      "clipped_fraction": 0.05468532986111111,
+      "dhash": "f4f0f2e86c4c6676",
+      "flags": []
+    },
+    {
+      "frame_index": 1110,
+      "timestamp_s": 37.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 96.22287630208334,
+      "laplacian_variance_384x240": 1837.7429839521571,
+      "clipped_fraction": 0.055565538194444444,
+      "dhash": "ea70f0eaac4ce676",
+      "flags": []
+    },
+    {
+      "frame_index": 1140,
+      "timestamp_s": 38.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 96.45532248263889,
+      "laplacian_variance_384x240": 1781.682173996914,
+      "clipped_fraction": 0.051083333333333335,
+      "dhash": "eaf0f0e89c8ca676",
+      "flags": []
+    },
+    {
+      "frame_index": 1170,
+      "timestamp_s": 39.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 96.14073914930556,
+      "laplacian_variance_384x240": 1879.502707374361,
+      "clipped_fraction": 0.054883246527777776,
+      "dhash": "e3f4d4e89c4ca676",
+      "flags": []
+    },
+    {
+      "frame_index": 1200,
+      "timestamp_s": 40.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 91.43756640625,
+      "laplacian_variance_384x240": 1697.0581733416332,
+      "clipped_fraction": 0.06184982638888889,
+      "dhash": "cafce4ea5c4cae76",
+      "flags": []
+    },
+    {
+      "frame_index": 1230,
+      "timestamp_s": 41.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 94.73451475694445,
+      "laplacian_variance_384x240": 1749.4749550129452,
+      "clipped_fraction": 0.05814019097222222,
+      "dhash": "eaf0f8ea5c4ca676",
+      "flags": []
+    },
+    {
+      "frame_index": 1260,
+      "timestamp_s": 42.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 96.47404991319445,
+      "laplacian_variance_384x240": 1793.7928059037527,
+      "clipped_fraction": 0.059273003472222224,
+      "dhash": "f6f0f868ac4ca676",
+      "flags": []
+    },
+    {
+      "frame_index": 1290,
+      "timestamp_s": 43.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 94.97357682291667,
+      "laplacian_variance_384x240": 1904.921831020308,
+      "clipped_fraction": 0.05957682291666667,
+      "dhash": "f2f0f0e8ac4ca67e",
+      "flags": []
+    },
+    {
+      "frame_index": 1320,
+      "timestamp_s": 44.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 96.55511545138889,
+      "laplacian_variance_384x240": 1822.9653225199384,
+      "clipped_fraction": 0.06295963541666667,
+      "dhash": "e9f0f4e99c4ca676",
+      "flags": []
+    },
+    {
+      "frame_index": 1350,
+      "timestamp_s": 45.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 93.63315321180555,
+      "laplacian_variance_384x240": 1714.9444301558128,
+      "clipped_fraction": 0.060235677083333335,
+      "dhash": "caf8f2e99c4ca67e",
+      "flags": []
+    },
+    {
+      "frame_index": 1380,
+      "timestamp_s": 46.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 94.84209592013889,
+      "laplacian_variance_384x240": 1697.0110876011552,
+      "clipped_fraction": 0.050243489583333335,
+      "dhash": "ebf4fa699c8ca676",
+      "flags": []
+    },
+    {
+      "frame_index": 1410,
+      "timestamp_s": 47.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 93.37607421875,
+      "laplacian_variance_384x240": 1681.7052186523251,
+      "clipped_fraction": 0.05664670138888889,
+      "dhash": "eaf874e89c8ca676",
+      "flags": []
+    },
+    {
+      "frame_index": 1440,
+      "timestamp_s": 48.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 91.33142534722222,
+      "laplacian_variance_384x240": 1783.2823864349318,
+      "clipped_fraction": 0.05736111111111111,
+      "dhash": "d2f874a88caca67e",
+      "flags": []
+    },
+    {
+      "frame_index": 1470,
+      "timestamp_s": 49.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 92.20067361111111,
+      "laplacian_variance_384x240": 1681.2859384182352,
+      "clipped_fraction": 0.05358203125,
+      "dhash": "cbe8fae99caca676",
+      "flags": []
+    },
+    {
+      "frame_index": 1500,
+      "timestamp_s": 50.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 93.41151822916666,
+      "laplacian_variance_384x240": 1664.78678226989,
+      "clipped_fraction": 0.05107595486111111,
+      "dhash": "ebfcf2e89c8ca676",
+      "flags": []
+    },
+    {
+      "frame_index": 1530,
+      "timestamp_s": 51.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 91.20378993055556,
+      "laplacian_variance_384x240": 1696.372239978814,
+      "clipped_fraction": 0.05262369791666666,
+      "dhash": "e2f072e89c8ca67e",
+      "flags": []
+    },
+    {
+      "frame_index": 1560,
+      "timestamp_s": 52.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 90.04260329861111,
+      "laplacian_variance_384x240": 1698.3409630438723,
+      "clipped_fraction": 0.0534375,
+      "dhash": "caec7ae98caca67e",
+      "flags": []
+    },
+    {
+      "frame_index": 1590,
+      "timestamp_s": 53.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 90.34885069444445,
+      "laplacian_variance_384x240": 1525.7332136573318,
+      "clipped_fraction": 0.04652777777777778,
+      "dhash": "c2f4f8e89caca6f6",
+      "flags": []
+    },
+    {
+      "frame_index": 1620,
+      "timestamp_s": 54.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 90.42772222222223,
+      "laplacian_variance_384x240": 1710.692532414566,
+      "clipped_fraction": 0.058770833333333335,
+      "dhash": "eaec78e89caca676",
+      "flags": []
+    },
+    {
+      "frame_index": 1650,
+      "timestamp_s": 55.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 89.17277821180555,
+      "laplacian_variance_384x240": 1643.4940196255109,
+      "clipped_fraction": 0.055586805555555556,
+      "dhash": "c9f468e99caca676",
+      "flags": []
+    },
+    {
+      "frame_index": 1680,
+      "timestamp_s": 56.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 89.24853776041667,
+      "laplacian_variance_384x240": 1556.8035888200927,
+      "clipped_fraction": 0.04857638888888889,
+      "dhash": "d3e47ce89c8ce6f6",
+      "flags": []
+    },
+    {
+      "frame_index": 1710,
+      "timestamp_s": 57.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 89.99263498263889,
+      "laplacian_variance_384x240": 1640.0159813393489,
+      "clipped_fraction": 0.05648828125,
+      "dhash": "eae868e99c8ca676",
+      "flags": []
+    },
+    {
+      "frame_index": 1740,
+      "timestamp_s": 58.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 88.94742925347222,
+      "laplacian_variance_384x240": 1689.346664419174,
+      "clipped_fraction": 0.056088541666666665,
+      "dhash": "c9ecf8a89ccca474",
+      "flags": []
+    },
+    {
+      "frame_index": 1770,
+      "timestamp_s": 59.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 88.06626736111112,
+      "laplacian_variance_384x240": 1589.2173654513886,
+      "clipped_fraction": 0.055292534722222224,
+      "dhash": "d5e8ece88c8ca676",
+      "flags": []
+    },
+    {
+      "frame_index": 1800,
+      "timestamp_s": 60.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 89.70053949652778,
+      "laplacian_variance_384x240": 1533.1426787482367,
+      "clipped_fraction": 0.05425217013888889,
+      "dhash": "cbf0f0e89c8ca676",
+      "flags": []
+    },
+    {
+      "frame_index": 1830,
+      "timestamp_s": 61.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 90.01820095486111,
+      "laplacian_variance_384x240": 1720.6919617754145,
+      "clipped_fraction": 0.05498654513888889,
+      "dhash": "eae8f8e8dc8ca67e",
+      "flags": []
+    },
+    {
+      "frame_index": 1860,
+      "timestamp_s": 62.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 90.19612456597223,
+      "laplacian_variance_384x240": 1760.4523010084367,
+      "clipped_fraction": 0.05865842013888889,
+      "dhash": "eae870e89c4ca676",
+      "flags": []
+    },
+    {
+      "frame_index": 1890,
+      "timestamp_s": 63.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 91.35651215277778,
+      "laplacian_variance_384x240": 1736.8957549708566,
+      "clipped_fraction": 0.055036024305555556,
+      "dhash": "f2f070ec9cacb676",
+      "flags": []
+    },
+    {
+      "frame_index": 1920,
+      "timestamp_s": 64.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 93.11206814236111,
+      "laplacian_variance_384x240": 1795.0190718068018,
+      "clipped_fraction": 0.057729166666666665,
+      "dhash": "f1f0d868acccf476",
+      "flags": []
+    },
+    {
+      "frame_index": 1950,
+      "timestamp_s": 65.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 92.08956944444445,
+      "laplacian_variance_384x240": 1858.1941297402795,
+      "clipped_fraction": 0.05974609375,
+      "dhash": "f1f2f0e8ac4c6cf6",
+      "flags": []
+    },
+    {
+      "frame_index": 1980,
+      "timestamp_s": 66.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 91.75103038194445,
+      "laplacian_variance_384x240": 1707.781354285346,
+      "clipped_fraction": 0.05689973958333333,
+      "dhash": "f2f4f0e8acccae76",
+      "flags": []
+    },
+    {
+      "frame_index": 2010,
+      "timestamp_s": 67.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 93.66243880208333,
+      "laplacian_variance_384x240": 1742.1724934037532,
+      "clipped_fraction": 0.05593663194444445,
+      "dhash": "f2f0d468ac6cf676",
+      "flags": []
+    },
+    {
+      "frame_index": 2040,
+      "timestamp_s": 68.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 92.55776605902778,
+      "laplacian_variance_384x240": 1859.6836045705536,
+      "clipped_fraction": 0.0604921875,
+      "dhash": "f6f0f068ac4cee76",
+      "flags": []
+    },
+    {
+      "frame_index": 2070,
+      "timestamp_s": 69.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 93.38657508680555,
+      "laplacian_variance_384x240": 1734.353960460969,
+      "clipped_fraction": 0.05824479166666666,
+      "dhash": "eaf0fce9ac4cf476",
+      "flags": []
+    },
+    {
+      "frame_index": 2100,
+      "timestamp_s": 70.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 94.30136241319444,
+      "laplacian_variance_384x240": 1780.120013736678,
+      "clipped_fraction": 0.060119791666666665,
+      "dhash": "f2f0f0a9ec4cf676",
+      "flags": []
+    },
+    {
+      "frame_index": 2130,
+      "timestamp_s": 71.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 93.58183854166667,
+      "laplacian_variance_384x240": 1835.0316928816433,
+      "clipped_fraction": 0.05922048611111111,
+      "dhash": "e7f4f0e8ac4cee76",
+      "flags": []
+    },
+    {
+      "frame_index": 2160,
+      "timestamp_s": 72.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 96.040890625,
+      "laplacian_variance_384x240": 1788.418770217778,
+      "clipped_fraction": 0.05828342013888889,
+      "dhash": "f6b2f8e96c4cb6f6",
+      "flags": []
+    },
+    {
+      "frame_index": 2190,
+      "timestamp_s": 73.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 104.29826345486111,
+      "laplacian_variance_384x240": 1538.7011277559068,
+      "clipped_fraction": 0.06029947916666667,
+      "dhash": "f4c871eaeccc74f6",
+      "flags": []
+    },
+    {
+      "frame_index": 2220,
+      "timestamp_s": 74.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 102.10114713541667,
+      "laplacian_variance_384x240": 1873.7763725270167,
+      "clipped_fraction": 0.05846267361111111,
+      "dhash": "e9d25674dcded676",
+      "flags": []
+    },
+    {
+      "frame_index": 2250,
+      "timestamp_s": 75.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 102.22029730902777,
+      "laplacian_variance_384x240": 1880.5569966962603,
+      "clipped_fraction": 0.03766666666666667,
+      "dhash": "f9ce78f4a2dcf4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 2280,
+      "timestamp_s": 76.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 103.14459027777778,
+      "laplacian_variance_384x240": 2049.215661620034,
+      "clipped_fraction": 0.0428984375,
+      "dhash": "f9f2d8aaaaf4f4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 2310,
+      "timestamp_s": 77.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 96.10643446180555,
+      "laplacian_variance_384x240": 2015.342969832126,
+      "clipped_fraction": 0.043432291666666664,
+      "dhash": "e9f278a896cce4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 2340,
+      "timestamp_s": 78.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 99.132765625,
+      "laplacian_variance_384x240": 1929.9166245632405,
+      "clipped_fraction": 0.04609939236111111,
+      "dhash": "f9b2fce8a8dce4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 2370,
+      "timestamp_s": 79.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 98.26978038194444,
+      "laplacian_variance_384x240": 1825.8951122877334,
+      "clipped_fraction": 0.04096484375,
+      "dhash": "f8f2f0acaa9cf4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 2400,
+      "timestamp_s": 80.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 111.82426692708333,
+      "laplacian_variance_384x240": 1147.4583194307634,
+      "clipped_fraction": 0.01215842013888889,
+      "dhash": "8c2e1375eddae2b4",
+      "flags": []
+    },
+    {
+      "frame_index": 2430,
+      "timestamp_s": 81.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 117.09467795138889,
+      "laplacian_variance_384x240": 1629.4902223703598,
+      "clipped_fraction": 0.019137152777777777,
+      "dhash": "c8e999fdd595f1f0",
+      "flags": []
+    },
+    {
+      "frame_index": 2460,
+      "timestamp_s": 82.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 114.37232118055556,
+      "laplacian_variance_384x240": 1898.8636156123362,
+      "clipped_fraction": 0.013891493055555556,
+      "dhash": "d2639d6dd58ce1f0",
+      "flags": []
+    },
+    {
+      "frame_index": 2490,
+      "timestamp_s": 83.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 111.83233333333334,
+      "laplacian_variance_384x240": 1797.9623392510118,
+      "clipped_fraction": 0.01330078125,
+      "dhash": "9385b97becdc74f0",
+      "flags": []
+    },
+    {
+      "frame_index": 2520,
+      "timestamp_s": 84.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 98.4568984375,
+      "laplacian_variance_384x240": 1884.58772496247,
+      "clipped_fraction": 0.06112890625,
+      "dhash": "f9f2faa89ccce4f6",
+      "flags": []
+    },
+    {
+      "frame_index": 2550,
+      "timestamp_s": 85.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 99.18215147569444,
+      "laplacian_variance_384x240": 1809.9605206520177,
+      "clipped_fraction": 0.05310199652777778,
+      "dhash": "f9b2fae8a9ac54f4",
+      "flags": []
+    },
+    {
+      "frame_index": 2580,
+      "timestamp_s": 86.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 111.9091015625,
+      "laplacian_variance_384x240": 1538.8971164786965,
+      "clipped_fraction": 0.015772569444444443,
+      "dhash": "c7c7a95be5d570f4",
+      "flags": []
+    },
+    {
+      "frame_index": 2610,
+      "timestamp_s": 87.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 114.62287717013889,
+      "laplacian_variance_384x240": 1058.5207459907765,
+      "clipped_fraction": 0.010160590277777777,
+      "dhash": "0e1a397f66f4e4b4",
+      "flags": []
+    },
+    {
+      "frame_index": 2640,
+      "timestamp_s": 88.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 90.32670963541666,
+      "laplacian_variance_384x240": 1927.5518661988815,
+      "clipped_fraction": 0.07056119791666667,
+      "dhash": "96eae0e81c2ce4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 2670,
+      "timestamp_s": 89.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 86.96425954861111,
+      "laplacian_variance_384x240": 1901.1817362795937,
+      "clipped_fraction": 0.06400260416666667,
+      "dhash": "a9d8e8aa2c34a4f4",
+      "flags": []
+    },
+    {
+      "frame_index": 2700,
+      "timestamp_s": 90.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 108.39687456597223,
+      "laplacian_variance_384x240": 1202.8405918204933,
+      "clipped_fraction": 0.01318576388888889,
+      "dhash": "143e5675b8d4e4b4",
+      "flags": []
+    },
+    {
+      "frame_index": 2730,
+      "timestamp_s": 91.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 118.04456597222222,
+      "laplacian_variance_384x240": 2046.0135842777765,
+      "clipped_fraction": 0.02349045138888889,
+      "dhash": "814b1969edd570f2",
+      "flags": []
+    },
+    {
+      "frame_index": 2760,
+      "timestamp_s": 92.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 110.38001909722222,
+      "laplacian_variance_384x240": 1129.577567319399,
+      "clipped_fraction": 0.022893663194444445,
+      "dhash": "1e27566dcbbae4a8",
+      "flags": []
+    },
+    {
+      "frame_index": 2790,
+      "timestamp_s": 93.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 105.03159114583333,
+      "laplacian_variance_384x240": 1943.2314235315205,
+      "clipped_fraction": 0.06701909722222223,
+      "dhash": "e9f2f8e8aaa8e4e4",
+      "flags": []
+    },
+    {
+      "frame_index": 2820,
+      "timestamp_s": 94.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 98.07728428819445,
+      "laplacian_variance_384x240": 1864.664197565597,
+      "clipped_fraction": 0.055274305555555556,
+      "dhash": "f9b6e8ecadac64f4",
+      "flags": []
+    },
+    {
+      "frame_index": 2850,
+      "timestamp_s": 95.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 109.0333828125,
+      "laplacian_variance_384x240": 1298.5843346290822,
+      "clipped_fraction": 0.011616753472222222,
+      "dhash": "8e0e92376ed8b0f4",
+      "flags": []
+    },
+    {
+      "frame_index": 2880,
+      "timestamp_s": 96.0,
+      "camera": "main_stereo_right",
+      "mean_luminance": 117.76403168402778,
+      "laplacian_variance_384x240": 1991.927636850145,
+      "clipped_fraction": 0.022259982638888887,
+      "dhash": "c5c3537de5d470f2",
+      "flags": []
+    },
+    {
+      "frame_index": 0,
+      "timestamp_s": 0.0,
+      "camera": "aux_left",
+      "mean_luminance": 128.07818489583335,
+      "laplacian_variance_384x240": 1852.0989373661557,
+      "clipped_fraction": 0.06969270833333334,
+      "dhash": "c3a1aba70262e8c4",
+      "flags": []
+    },
+    {
+      "frame_index": 30,
+      "timestamp_s": 1.0,
+      "camera": "aux_left",
+      "mean_luminance": 115.88329210069445,
+      "laplacian_variance_384x240": 749.1283961815303,
+      "clipped_fraction": 0.03348263888888889,
+      "dhash": "d090a1828266ad48",
+      "flags": []
+    },
+    {
+      "frame_index": 60,
+      "timestamp_s": 2.0,
+      "camera": "aux_left",
+      "mean_luminance": 114.59622612847222,
+      "laplacian_variance_384x240": 911.5709857082368,
+      "clipped_fraction": 0.07284852430555555,
+      "dhash": "8226462e1c40cbc8",
+      "flags": []
+    },
+    {
+      "frame_index": 90,
+      "timestamp_s": 3.0,
+      "camera": "aux_left",
+      "mean_luminance": 109.37601692708333,
+      "laplacian_variance_384x240": 808.5878174392087,
+      "clipped_fraction": 0.0675,
+      "dhash": "a162420e9dcc4ac8",
+      "flags": []
+    },
+    {
+      "frame_index": 120,
+      "timestamp_s": 4.0,
+      "camera": "aux_left",
+      "mean_luminance": 111.80015972222222,
+      "laplacian_variance_384x240": 834.4485579427082,
+      "clipped_fraction": 0.06351779513888889,
+      "dhash": "a12322061cc4cac8",
+      "flags": []
+    },
+    {
+      "frame_index": 150,
+      "timestamp_s": 5.0,
+      "camera": "aux_left",
+      "mean_luminance": 124.63698003472223,
+      "laplacian_variance_384x240": 1081.3570578299627,
+      "clipped_fraction": 0.056090711805555554,
+      "dhash": "82a0202c9cc4cac8",
+      "flags": []
+    },
+    {
+      "frame_index": 180,
+      "timestamp_s": 6.0,
+      "camera": "aux_left",
+      "mean_luminance": 117.51787065972222,
+      "laplacian_variance_384x240": 1027.7557610966248,
+      "clipped_fraction": 0.06958810763888888,
+      "dhash": "a6ae422a15484a48",
+      "flags": []
+    },
+    {
+      "frame_index": 210,
+      "timestamp_s": 7.0,
+      "camera": "aux_left",
+      "mean_luminance": 144.79518663194443,
+      "laplacian_variance_384x240": 717.9347769259228,
+      "clipped_fraction": 0.06519140625,
+      "dhash": "86aaa2a2aa286848",
+      "flags": []
+    },
+    {
+      "frame_index": 240,
+      "timestamp_s": 8.0,
+      "camera": "aux_left",
+      "mean_luminance": 136.49925998263888,
+      "laplacian_variance_384x240": 730.3801535287316,
+      "clipped_fraction": 0.05999652777777778,
+      "dhash": "d1818a434a6a0b4a",
+      "flags": []
+    },
+    {
+      "frame_index": 270,
+      "timestamp_s": 9.0,
+      "camera": "aux_left",
+      "mean_luminance": 127.16014756944445,
+      "laplacian_variance_384x240": 983.9149630774979,
+      "clipped_fraction": 0.052633680555555555,
+      "dhash": "80a0a32eaa8c4dca",
+      "flags": []
+    },
+    {
+      "frame_index": 300,
+      "timestamp_s": 10.0,
+      "camera": "aux_left",
+      "mean_luminance": 114.22661588541666,
+      "laplacian_variance_384x240": 840.5665787760418,
+      "clipped_fraction": 0.05423828125,
+      "dhash": "92a0a02962cc49ca",
+      "flags": []
+    },
+    {
+      "frame_index": 330,
+      "timestamp_s": 11.0,
+      "camera": "aux_left",
+      "mean_luminance": 116.28620138888888,
+      "laplacian_variance_384x240": 1089.718516384996,
+      "clipped_fraction": 0.04850390625,
+      "dhash": "a2a0a003b26c48ca",
+      "flags": []
+    },
+    {
+      "frame_index": 360,
+      "timestamp_s": 12.0,
+      "camera": "aux_left",
+      "mean_luminance": 116.14277473958333,
+      "laplacian_variance_384x240": 1054.3712698607972,
+      "clipped_fraction": 0.051379340277777776,
+      "dhash": "b2a2a028b24c4bca",
+      "flags": []
+    },
+    {
+      "frame_index": 390,
+      "timestamp_s": 13.0,
+      "camera": "aux_left",
+      "mean_luminance": 116.13868012152778,
+      "laplacian_variance_384x240": 1069.1782238843705,
+      "clipped_fraction": 0.04931032986111111,
+      "dhash": "92b0a0276a4e4aca",
+      "flags": []
+    },
+    {
+      "frame_index": 420,
+      "timestamp_s": 14.0,
+      "camera": "aux_left",
+      "mean_luminance": 116.65935590277778,
+      "laplacian_variance_384x240": 1068.0188400003647,
+      "clipped_fraction": 0.04970920138888889,
+      "dhash": "8282a0206a4e4aca",
+      "flags": []
+    },
+    {
+      "frame_index": 450,
+      "timestamp_s": 15.0,
+      "camera": "aux_left",
+      "mean_luminance": 117.29223394097222,
+      "laplacian_variance_384x240": 1155.0994829601714,
+      "clipped_fraction": 0.05050998263888889,
+      "dhash": "92b0a44a4a484b4a",
+      "flags": []
+    },
+    {
+      "frame_index": 480,
+      "timestamp_s": 16.0,
+      "camera": "aux_left",
+      "mean_luminance": 120.22897048611111,
+      "laplacian_variance_384x240": 1098.2640115992228,
+      "clipped_fraction": 0.04507248263888889,
+      "dhash": "92a480824a48494a",
+      "flags": []
+    },
+    {
+      "frame_index": 510,
+      "timestamp_s": 17.0,
+      "camera": "aux_left",
+      "mean_luminance": 124.40738498263889,
+      "laplacian_variance_384x240": 1261.4605998793943,
+      "clipped_fraction": 0.05696050347222222,
+      "dhash": "b0a092028a4c0b48",
+      "flags": []
+    },
+    {
+      "frame_index": 540,
+      "timestamp_s": 18.0,
+      "camera": "aux_left",
+      "mean_luminance": 117.49247569444445,
+      "laplacian_variance_384x240": 1186.6060000514983,
+      "clipped_fraction": 0.04960850694444444,
+      "dhash": "90b0908b4e4c4a08",
+      "flags": []
+    },
+    {
+      "frame_index": 570,
+      "timestamp_s": 19.0,
+      "camera": "aux_left",
+      "mean_luminance": 114.18474262152777,
+      "laplacian_variance_384x240": 1232.5481009672894,
+      "clipped_fraction": 0.05809982638888889,
+      "dhash": "928080a90e484a08",
+      "flags": []
+    },
+    {
+      "frame_index": 600,
+      "timestamp_s": 20.0,
+      "camera": "aux_left",
+      "mean_luminance": 112.82822135416667,
+      "laplacian_variance_384x240": 1253.1277983940975,
+      "clipped_fraction": 0.05709809027777778,
+      "dhash": "b2a090ab0e404a08",
+      "flags": []
+    },
+    {
+      "frame_index": 630,
+      "timestamp_s": 21.0,
+      "camera": "aux_left",
+      "mean_luminance": 114.93812586805555,
+      "laplacian_variance_384x240": 1236.4522858979967,
+      "clipped_fraction": 0.05574565972222222,
+      "dhash": "92a290888e4cca08",
+      "flags": []
+    },
+    {
+      "frame_index": 660,
+      "timestamp_s": 22.0,
+      "camera": "aux_left",
+      "mean_luminance": 114.86115928819444,
+      "laplacian_variance_384x240": 1178.397979408429,
+      "clipped_fraction": 0.059002170138888886,
+      "dhash": "92828048ac48ca48",
+      "flags": []
+    },
+    {
+      "frame_index": 690,
+      "timestamp_s": 23.0,
+      "camera": "aux_left",
+      "mean_luminance": 119.83769444444444,
+      "laplacian_variance_384x240": 1152.5607756154332,
+      "clipped_fraction": 0.05825868055555555,
+      "dhash": "90a186668e424a48",
+      "flags": []
+    },
+    {
+      "frame_index": 720,
+      "timestamp_s": 24.0,
+      "camera": "aux_left",
+      "mean_luminance": 122.45962196180555,
+      "laplacian_variance_384x240": 974.2290700954862,
+      "clipped_fraction": 0.049606336805555554,
+      "dhash": "91a2a68e8a4b6848",
+      "flags": []
+    },
+    {
+      "frame_index": 750,
+      "timestamp_s": 25.0,
+      "camera": "aux_left",
+      "mean_luminance": 111.36577907986111,
+      "laplacian_variance_384x240": 980.929120004442,
+      "clipped_fraction": 0.07975043402777778,
+      "dhash": "a6a636240c4a4a2a",
+      "flags": []
+    },
+    {
+      "frame_index": 780,
+      "timestamp_s": 26.0,
+      "camera": "aux_left",
+      "mean_luminance": 110.68998697916666,
+      "laplacian_variance_384x240": 958.8627544797498,
+      "clipped_fraction": 0.08098958333333334,
+      "dhash": "a1a62e24088a4a4a",
+      "flags": []
+    },
+    {
+      "frame_index": 810,
+      "timestamp_s": 27.0,
+      "camera": "aux_left",
+      "mean_luminance": 107.94374088541667,
+      "laplacian_variance_384x240": 897.3367559244606,
+      "clipped_fraction": 0.07587890625,
+      "dhash": "a0a1222a9c4a4a0a",
+      "flags": []
+    },
+    {
+      "frame_index": 840,
+      "timestamp_s": 28.0,
+      "camera": "aux_left",
+      "mean_luminance": 109.20921223958334,
+      "laplacian_variance_384x240": 950.7455369567869,
+      "clipped_fraction": 0.06749782986111111,
+      "dhash": "82a0a124924a4a0a",
+      "flags": []
+    },
+    {
+      "frame_index": 870,
+      "timestamp_s": 29.0,
+      "camera": "aux_left",
+      "mean_luminance": 109.11148177083334,
+      "laplacian_variance_384x240": 1043.4038541365258,
+      "clipped_fraction": 0.06736371527777778,
+      "dhash": "a4a0834a444a4a0a",
+      "flags": []
+    },
+    {
+      "frame_index": 900,
+      "timestamp_s": 30.0,
+      "camera": "aux_left",
+      "mean_luminance": 108.10532899305555,
+      "laplacian_variance_384x240": 998.7403904525146,
+      "clipped_fraction": 0.06944314236111111,
+      "dhash": "a0a0a1a6844a4a4a",
+      "flags": []
+    },
+    {
+      "frame_index": 930,
+      "timestamp_s": 31.0,
+      "camera": "aux_left",
+      "mean_luminance": 108.28463151041667,
+      "laplacian_variance_384x240": 612.6490863789452,
+      "clipped_fraction": 0.07097135416666667,
+      "dhash": "a4a0a1a64c4a684a",
+      "flags": []
+    },
+    {
+      "frame_index": 960,
+      "timestamp_s": 32.0,
+      "camera": "aux_left",
+      "mean_luminance": 112.45815060763888,
+      "laplacian_variance_384x240": 1125.893271815924,
+      "clipped_fraction": 0.06679036458333333,
+      "dhash": "90a382568c4a0a0a",
+      "flags": []
+    },
+    {
+      "frame_index": 990,
+      "timestamp_s": 33.0,
+      "camera": "aux_left",
+      "mean_luminance": 114.27496310763888,
+      "laplacian_variance_384x240": 1058.7705058834877,
+      "clipped_fraction": 0.07019965277777777,
+      "dhash": "92a286ae0c48484a",
+      "flags": []
+    },
+    {
+      "frame_index": 1020,
+      "timestamp_s": 34.0,
+      "camera": "aux_left",
+      "mean_luminance": 107.67569574652778,
+      "laplacian_variance_384x240": 1052.2670808198718,
+      "clipped_fraction": 0.07725434027777778,
+      "dhash": "8ca0a1a20c4a4a4a",
+      "flags": []
+    },
+    {
+      "frame_index": 1050,
+      "timestamp_s": 35.0,
+      "camera": "aux_left",
+      "mean_luminance": 119.94894270833333,
+      "laplacian_variance_384x240": 1155.5509894246231,
+      "clipped_fraction": 0.04717100694444445,
+      "dhash": "d0b092028e6c2808",
+      "flags": []
+    },
+    {
+      "frame_index": 1080,
+      "timestamp_s": 36.0,
+      "camera": "aux_left",
+      "mean_luminance": 107.86007508680555,
+      "laplacian_variance_384x240": 1104.4893406308727,
+      "clipped_fraction": 0.07962803819444444,
+      "dhash": "aba526265c4c4804",
+      "flags": []
+    },
+    {
+      "frame_index": 1110,
+      "timestamp_s": 37.0,
+      "camera": "aux_left",
+      "mean_luminance": 109.05028645833333,
+      "laplacian_variance_384x240": 1054.880956012938,
+      "clipped_fraction": 0.07770659722222223,
+      "dhash": "82a3a2aedc4cc58c",
+      "flags": []
+    },
+    {
+      "frame_index": 1140,
+      "timestamp_s": 38.0,
+      "camera": "aux_left",
+      "mean_luminance": 102.80169227430555,
+      "laplacian_variance_384x240": 1056.9579956383177,
+      "clipped_fraction": 0.08526345486111112,
+      "dhash": "a4a021a24d4cc08c",
+      "flags": []
+    },
+    {
+      "frame_index": 1170,
+      "timestamp_s": 39.0,
+      "camera": "aux_left",
+      "mean_luminance": 110.92291970486112,
+      "laplacian_variance_384x240": 1107.663409872997,
+      "clipped_fraction": 0.07419270833333333,
+      "dhash": "a1a1222e5c4cc908",
+      "flags": []
+    },
+    {
+      "frame_index": 1200,
+      "timestamp_s": 40.0,
+      "camera": "aux_left",
+      "mean_luminance": 110.62725043402777,
+      "laplacian_variance_384x240": 1163.675381785734,
+      "clipped_fraction": 0.06926345486111112,
+      "dhash": "a0a102ae5c44c988",
+      "flags": []
+    },
+    {
+      "frame_index": 1230,
+      "timestamp_s": 41.0,
+      "camera": "aux_left",
+      "mean_luminance": 103.442234375,
+      "laplacian_variance_384x240": 1097.4880448658082,
+      "clipped_fraction": 0.07571831597222223,
+      "dhash": "b4b020264c4cc908",
+      "flags": []
+    },
+    {
+      "frame_index": 1260,
+      "timestamp_s": 42.0,
+      "camera": "aux_left",
+      "mean_luminance": 110.17266102430555,
+      "laplacian_variance_384x240": 973.3220162934433,
+      "clipped_fraction": 0.07320355902777778,
+      "dhash": "84a0a14aa448484a",
+      "flags": []
+    },
+    {
+      "frame_index": 1290,
+      "timestamp_s": 43.0,
+      "camera": "aux_left",
+      "mean_luminance": 117.22397786458333,
+      "laplacian_variance_384x240": 1164.8167962296802,
+      "clipped_fraction": 0.07379774305555556,
+      "dhash": "b6a686ae8d484848",
+      "flags": []
+    },
+    {
+      "frame_index": 1320,
+      "timestamp_s": 44.0,
+      "camera": "aux_left",
+      "mean_luminance": 113.99884722222222,
+      "laplacian_variance_384x240": 1153.6048211781774,
+      "clipped_fraction": 0.07439192708333334,
+      "dhash": "82a28e268c484848",
+      "flags": []
+    },
+    {
+      "frame_index": 1350,
+      "timestamp_s": 45.0,
+      "camera": "aux_left",
+      "mean_luminance": 114.76978645833333,
+      "laplacian_variance_384x240": 1088.071241118702,
+      "clipped_fraction": 0.07181076388888889,
+      "dhash": "a2a2866e9c4c4848",
+      "flags": []
+    },
+    {
+      "frame_index": 1380,
+      "timestamp_s": 46.0,
+      "camera": "aux_left",
+      "mean_luminance": 105.91128211805555,
+      "laplacian_variance_384x240": 1155.5803743108113,
+      "clipped_fraction": 0.08070182291666667,
+      "dhash": "aca080284c484848",
+      "flags": []
+    },
+    {
+      "frame_index": 1410,
+      "timestamp_s": 47.0,
+      "camera": "aux_left",
+      "mean_luminance": 112.39551736111112,
+      "laplacian_variance_384x240": 1166.5076619164736,
+      "clipped_fraction": 0.07605685763888889,
+      "dhash": "a2aa96ae5c4c4888",
+      "flags": []
+    },
+    {
+      "frame_index": 1440,
+      "timestamp_s": 48.0,
+      "camera": "aux_left",
+      "mean_luminance": 113.96156857638888,
+      "laplacian_variance_384x240": 1224.6286599010891,
+      "clipped_fraction": 0.0723576388888889,
+      "dhash": "92a286ae4c4c89c8",
+      "flags": []
+    },
+    {
+      "frame_index": 1470,
+      "timestamp_s": 49.0,
+      "camera": "aux_left",
+      "mean_luminance": 105.07656814236111,
+      "laplacian_variance_384x240": 1148.3336963493443,
+      "clipped_fraction": 0.08010112847222223,
+      "dhash": "a4a089a64d484848",
+      "flags": []
+    },
+    {
+      "frame_index": 1500,
+      "timestamp_s": 50.0,
+      "camera": "aux_left",
+      "mean_luminance": 104.66005946180556,
+      "laplacian_variance_384x240": 1154.4643713755668,
+      "clipped_fraction": 0.08460243055555555,
+      "dhash": "a2a0802a4c4c4948",
+      "flags": []
+    },
+    {
+      "frame_index": 1530,
+      "timestamp_s": 51.0,
+      "camera": "aux_left",
+      "mean_luminance": 112.85204123263888,
+      "laplacian_variance_384x240": 1212.9596248738558,
+      "clipped_fraction": 0.07307465277777778,
+      "dhash": "b1a2aea64c4849c8",
+      "flags": []
+    },
+    {
+      "frame_index": 1560,
+      "timestamp_s": 52.0,
+      "camera": "aux_left",
+      "mean_luminance": 113.0208728298611,
+      "laplacian_variance_384x240": 1204.306329072552,
+      "clipped_fraction": 0.07127647569444444,
+      "dhash": "92a3a62e4c4c89c8",
+      "flags": []
+    },
+    {
+      "frame_index": 1590,
+      "timestamp_s": 53.0,
+      "camera": "aux_left",
+      "mean_luminance": 102.58505772569444,
+      "laplacian_variance_384x240": 1164.277365298801,
+      "clipped_fraction": 0.08833723958333334,
+      "dhash": "92a4a06a4c4c8948",
+      "flags": []
+    },
+    {
+      "frame_index": 1620,
+      "timestamp_s": 54.0,
+      "camera": "aux_left",
+      "mean_luminance": 110.50513454861111,
+      "laplacian_variance_384x240": 1196.270661048418,
+      "clipped_fraction": 0.07540668402777778,
+      "dhash": "91a386664c4c49c4",
+      "flags": []
+    },
+    {
+      "frame_index": 1650,
+      "timestamp_s": 55.0,
+      "camera": "aux_left",
+      "mean_luminance": 106.89971875,
+      "laplacian_variance_384x240": 1204.7235056040022,
+      "clipped_fraction": 0.07571744791666667,
+      "dhash": "91a1a26e4c4c89c4",
+      "flags": []
+    },
+    {
+      "frame_index": 1680,
+      "timestamp_s": 56.0,
+      "camera": "aux_left",
+      "mean_luminance": 101.32540625,
+      "laplacian_variance_384x240": 1208.5725653711954,
+      "clipped_fraction": 0.08433637152777777,
+      "dhash": "82a0b06a4c4c89c4",
+      "flags": []
+    },
+    {
+      "frame_index": 1710,
+      "timestamp_s": 57.0,
+      "camera": "aux_left",
+      "mean_luminance": 112.35755164930555,
+      "laplacian_variance_384x240": 1295.2457745017537,
+      "clipped_fraction": 0.07206770833333333,
+      "dhash": "b0a143665c4488c4",
+      "flags": []
+    },
+    {
+      "frame_index": 1740,
+      "timestamp_s": 58.0,
+      "camera": "aux_left",
+      "mean_luminance": 112.59048828125,
+      "laplacian_variance_384x240": 1383.5663262655705,
+      "clipped_fraction": 0.06878168402777778,
+      "dhash": "b0a1328e4c4c88c4",
+      "flags": []
+    },
+    {
+      "frame_index": 1770,
+      "timestamp_s": 59.0,
+      "camera": "aux_left",
+      "mean_luminance": 113.28023654513889,
+      "laplacian_variance_384x240": 1412.6038866886092,
+      "clipped_fraction": 0.06763758680555555,
+      "dhash": "a0a151265c4c0884",
+      "flags": []
+    },
+    {
+      "frame_index": 1800,
+      "timestamp_s": 60.0,
+      "camera": "aux_left",
+      "mean_luminance": 109.49431163194444,
+      "laplacian_variance_384x240": 1341.9397369591984,
+      "clipped_fraction": 0.08047178819444445,
+      "dhash": "b2a424ae444c09c4",
+      "flags": []
+    },
+    {
+      "frame_index": 1830,
+      "timestamp_s": 61.0,
+      "camera": "aux_left",
+      "mean_luminance": 114.06036545138889,
+      "laplacian_variance_384x240": 1324.0056016540527,
+      "clipped_fraction": 0.0693203125,
+      "dhash": "b0a142864c4c88cc",
+      "flags": []
+    },
+    {
+      "frame_index": 1860,
+      "timestamp_s": 62.0,
+      "camera": "aux_left",
+      "mean_luminance": 114.83015668402778,
+      "laplacian_variance_384x240": 1326.6081320839162,
+      "clipped_fraction": 0.06717925347222223,
+      "dhash": "91a1426e4c4409cc",
+      "flags": []
+    },
+    {
+      "frame_index": 1890,
+      "timestamp_s": 63.0,
+      "camera": "aux_left",
+      "mean_luminance": 111.22081423611111,
+      "laplacian_variance_384x240": 1271.9953548177082,
+      "clipped_fraction": 0.07616710069444445,
+      "dhash": "92a428844c4c89c4",
+      "flags": []
+    },
+    {
+      "frame_index": 1920,
+      "timestamp_s": 64.0,
+      "camera": "aux_left",
+      "mean_luminance": 112.40425434027777,
+      "laplacian_variance_384x240": 1291.5598836346614,
+      "clipped_fraction": 0.06470963541666666,
+      "dhash": "92b043464c4486c4",
+      "flags": []
+    },
+    {
+      "frame_index": 1950,
+      "timestamp_s": 65.0,
+      "camera": "aux_left",
+      "mean_luminance": 111.75138454861111,
+      "laplacian_variance_384x240": 1383.541492827616,
+      "clipped_fraction": 0.06898003472222222,
+      "dhash": "80a182664c4484c4",
+      "flags": []
+    },
+    {
+      "frame_index": 1980,
+      "timestamp_s": 66.0,
+      "camera": "aux_left",
+      "mean_luminance": 112.9312756076389,
+      "laplacian_variance_384x240": 1374.8034603824146,
+      "clipped_fraction": 0.07062543402777778,
+      "dhash": "a3a1222e4c4484c4",
+      "flags": []
+    },
+    {
+      "frame_index": 2010,
+      "timestamp_s": 67.0,
+      "camera": "aux_left",
+      "mean_luminance": 104.55971744791667,
+      "laplacian_variance_384x240": 1284.3134004794229,
+      "clipped_fraction": 0.08473958333333333,
+      "dhash": "a2a020aa4c4405c4",
+      "flags": []
+    },
+    {
+      "frame_index": 2040,
+      "timestamp_s": 68.0,
+      "camera": "aux_left",
+      "mean_luminance": 110.76521354166667,
+      "laplacian_variance_384x240": 1380.9774568853259,
+      "clipped_fraction": 0.07122873263888889,
+      "dhash": "b0a10a4e444488c4",
+      "flags": []
+    },
+    {
+      "frame_index": 2070,
+      "timestamp_s": 69.0,
+      "camera": "aux_left",
+      "mean_luminance": 105.46529427083334,
+      "laplacian_variance_384x240": 1322.0786991400778,
+      "clipped_fraction": 0.07736284722222223,
+      "dhash": "b28048a24c4c89c8",
+      "flags": []
+    },
+    {
+      "frame_index": 2100,
+      "timestamp_s": 70.0,
+      "camera": "aux_left",
+      "mean_luminance": 107.92515972222222,
+      "laplacian_variance_384x240": 1357.617207927939,
+      "clipped_fraction": 0.07429427083333333,
+      "dhash": "92a083264c448484",
+      "flags": []
+    },
+    {
+      "frame_index": 2130,
+      "timestamp_s": 71.0,
+      "camera": "aux_left",
+      "mean_luminance": 106.58247482638889,
+      "laplacian_variance_384x240": 1428.1897785775457,
+      "clipped_fraction": 0.07049652777777778,
+      "dhash": "90802028488ccac4",
+      "flags": []
+    },
+    {
+      "frame_index": 2160,
+      "timestamp_s": 72.0,
+      "camera": "aux_left",
+      "mean_luminance": 110.25222309027778,
+      "laplacian_variance_384x240": 1314.551587515819,
+      "clipped_fraction": 0.0750078125,
+      "dhash": "d29040446b2ce9c8",
+      "flags": []
+    },
+    {
+      "frame_index": 2190,
+      "timestamp_s": 73.0,
+      "camera": "aux_left",
+      "mean_luminance": 135.20317578125,
+      "laplacian_variance_384x240": 521.0391372585296,
+      "clipped_fraction": 0.04349869791666667,
+      "dhash": "c0c0dbc28a8aa858",
+      "flags": []
+    },
+    {
+      "frame_index": 2220,
+      "timestamp_s": 74.0,
+      "camera": "aux_left",
+      "mean_luminance": 128.2105,
+      "laplacian_variance_384x240": 1162.5687649197048,
+      "clipped_fraction": 0.030530815972222222,
+      "dhash": "b40ab22a2a521914",
+      "flags": []
+    },
+    {
+      "frame_index": 2250,
+      "timestamp_s": 75.0,
+      "camera": "aux_left",
+      "mean_luminance": 119.20204427083333,
+      "laplacian_variance_384x240": 1148.173015941926,
+      "clipped_fraction": 0.06794791666666666,
+      "dhash": "d19393a26a406844",
+      "flags": []
+    },
+    {
+      "frame_index": 2280,
+      "timestamp_s": 76.0,
+      "camera": "aux_left",
+      "mean_luminance": 133.01498697916668,
+      "laplacian_variance_384x240": 1260.8541203297507,
+      "clipped_fraction": 0.06457291666666666,
+      "dhash": "92a2aa2626cc4844",
+      "flags": []
+    },
+    {
+      "frame_index": 2310,
+      "timestamp_s": 77.0,
+      "camera": "aux_left",
+      "mean_luminance": 116.55990407986111,
+      "laplacian_variance_384x240": 1330.1788446492324,
+      "clipped_fraction": 0.07040928819444445,
+      "dhash": "915153666ae8c4c4",
+      "flags": []
+    },
+    {
+      "frame_index": 2340,
+      "timestamp_s": 78.0,
+      "camera": "aux_left",
+      "mean_luminance": 141.3518103298611,
+      "laplacian_variance_384x240": 943.1174967278374,
+      "clipped_fraction": 0.06351085069444444,
+      "dhash": "c8c1d3d7022a2c4b",
+      "flags": []
+    },
+    {
+      "frame_index": 2370,
+      "timestamp_s": 79.0,
+      "camera": "aux_left",
+      "mean_luminance": 128.77486501736112,
+      "laplacian_variance_384x240": 1334.0320624452759,
+      "clipped_fraction": 0.05295572916666667,
+      "dhash": "c091c1654b4e89ca",
+      "flags": []
+    },
+    {
+      "frame_index": 2400,
+      "timestamp_s": 80.0,
+      "camera": "aux_left",
+      "mean_luminance": 98.04224262152778,
+      "laplacian_variance_384x240": 448.49642971168333,
+      "clipped_fraction": 0.0179140625,
+      "dhash": "c0d0a81428eac4c6",
+      "flags": []
+    },
+    {
+      "frame_index": 2430,
+      "timestamp_s": 81.0,
+      "camera": "aux_left",
+      "mean_luminance": 121.87600607638889,
+      "laplacian_variance_384x240": 616.3351627260372,
+      "clipped_fraction": 0.004759982638888889,
+      "dhash": "f5ea9874e474aaa4",
+      "flags": []
+    },
+    {
+      "frame_index": 2460,
+      "timestamp_s": 82.0,
+      "camera": "aux_left",
+      "mean_luminance": 118.29687586805555,
+      "laplacian_variance_384x240": 377.81758880191387,
+      "clipped_fraction": 0.007015190972222222,
+      "dhash": "e8c8dc6a64f6baaa",
+      "flags": []
+    },
+    {
+      "frame_index": 2490,
+      "timestamp_s": 83.0,
+      "camera": "aux_left",
+      "mean_luminance": 123.13082552083333,
+      "laplacian_variance_384x240": 192.41267609584477,
+      "clipped_fraction": 0.005527777777777778,
+      "dhash": "c9e8e8dcec64f4a8",
+      "flags": []
+    },
+    {
+      "frame_index": 2520,
+      "timestamp_s": 84.0,
+      "camera": "aux_left",
+      "mean_luminance": 124.16962239583333,
+      "laplacian_variance_384x240": 531.4158275179215,
+      "clipped_fraction": 0.014369791666666666,
+      "dhash": "c3d1d7d6ba8aa8a8",
+      "flags": []
+    },
+    {
+      "frame_index": 2550,
+      "timestamp_s": 85.0,
+      "camera": "aux_left",
+      "mean_luminance": 126.42979947916666,
+      "laplacian_variance_384x240": 337.6273012739347,
+      "clipped_fraction": 0.020081597222222223,
+      "dhash": "87ada68a2a8a4948",
+      "flags": []
+    },
+    {
+      "frame_index": 2580,
+      "timestamp_s": 86.0,
+      "camera": "aux_left",
+      "mean_luminance": 84.0384123263889,
+      "laplacian_variance_384x240": 226.6004151897666,
+      "clipped_fraction": 0.0030980902777777777,
+      "dhash": "68f5f89ca0d8a8aa",
+      "flags": []
+    },
+    {
+      "frame_index": 2610,
+      "timestamp_s": 87.0,
+      "camera": "aux_left",
+      "mean_luminance": 126.49774956597223,
+      "laplacian_variance_384x240": 282.403907332126,
+      "clipped_fraction": 0.010233506944444444,
+      "dhash": "08d9e8ece4e8a8a4",
+      "flags": []
+    },
+    {
+      "frame_index": 2640,
+      "timestamp_s": 88.0,
+      "camera": "aux_left",
+      "mean_luminance": 133.4819900173611,
+      "laplacian_variance_384x240": 760.3405653370751,
+      "clipped_fraction": 0.03593793402777778,
+      "dhash": "d6c2a38e6e664c44",
+      "flags": []
+    },
+    {
+      "frame_index": 2670,
+      "timestamp_s": 89.0,
+      "camera": "aux_left",
+      "mean_luminance": 121.75428559027777,
+      "laplacian_variance_384x240": 924.4491088697645,
+      "clipped_fraction": 0.04715060763888889,
+      "dhash": "a78cae2e2eccc8c4",
+      "flags": []
+    },
+    {
+      "frame_index": 2700,
+      "timestamp_s": 90.0,
+      "camera": "aux_left",
+      "mean_luminance": 97.66803255208333,
+      "laplacian_variance_384x240": 506.7204054937245,
+      "clipped_fraction": 0.014228298611111112,
+      "dhash": "a5a264b12be9e764",
+      "flags": []
+    },
+    {
+      "frame_index": 2730,
+      "timestamp_s": 91.0,
+      "camera": "aux_left",
+      "mean_luminance": 117.23307682291667,
+      "laplacian_variance_384x240": 782.6407001843863,
+      "clipped_fraction": 0.0024019097222222224,
+      "dhash": "d8e8f0e4e8acaca9",
+      "flags": []
+    },
+    {
+      "frame_index": 2760,
+      "timestamp_s": 92.0,
+      "camera": "aux_left",
+      "mean_luminance": 138.03995008680556,
+      "laplacian_variance_384x240": 241.87039898719317,
+      "clipped_fraction": 0.07150564236111111,
+      "dhash": "9035d2a5e8f9ebaa",
+      "flags": []
+    },
+    {
+      "frame_index": 2790,
+      "timestamp_s": 93.0,
+      "camera": "aux_left",
+      "mean_luminance": 114.95697569444444,
+      "laplacian_variance_384x240": 678.5473186774313,
+      "clipped_fraction": 0.04019921875,
+      "dhash": "9193b2860e8e4858",
+      "flags": []
+    },
+    {
+      "frame_index": 2820,
+      "timestamp_s": 94.0,
+      "camera": "aux_left",
+      "mean_luminance": 139.08901258680555,
+      "laplacian_variance_384x240": 892.0123967978396,
+      "clipped_fraction": 0.026039930555555556,
+      "dhash": "b2a6a68682a84849",
+      "flags": []
+    },
+    {
+      "frame_index": 2850,
+      "timestamp_s": 95.0,
+      "camera": "aux_left",
+      "mean_luminance": 93.35374652777777,
+      "laplacian_variance_384x240": 560.4447449408638,
+      "clipped_fraction": 0.016647135416666667,
+      "dhash": "c2b51a94eaece4c2",
+      "flags": []
+    },
+    {
+      "frame_index": 2880,
+      "timestamp_s": 96.0,
+      "camera": "aux_left",
+      "mean_luminance": 110.49353645833334,
+      "laplacian_variance_384x240": 577.9352830293443,
+      "clipped_fraction": 0.00341015625,
+      "dhash": "d8f1a8e4e5d5adad",
+      "flags": []
+    },
+    {
+      "frame_index": 0,
+      "timestamp_s": 0.0,
+      "camera": "aux_right",
+      "mean_luminance": 112.94350130208333,
+      "laplacian_variance_384x240": 1400.7735760148366,
+      "clipped_fraction": 0.030396701388888888,
+      "dhash": "ec7cf456f6dbbd4d",
+      "flags": []
+    },
+    {
+      "frame_index": 30,
+      "timestamp_s": 1.0,
+      "camera": "aux_right",
+      "mean_luminance": 109.74835329861111,
+      "laplacian_variance_384x240": 1266.0079217411562,
+      "clipped_fraction": 0.05390060763888889,
+      "dhash": "6c6aeeeeabbdd54e",
+      "flags": []
+    },
+    {
+      "frame_index": 60,
+      "timestamp_s": 2.0,
+      "camera": "aux_right",
+      "mean_luminance": 101.83976388888888,
+      "laplacian_variance_384x240": 999.6961700999881,
+      "clipped_fraction": 0.054401909722222225,
+      "dhash": "ccddedeeaaafedcd",
+      "flags": []
+    },
+    {
+      "frame_index": 90,
+      "timestamp_s": 3.0,
+      "camera": "aux_right",
+      "mean_luminance": 100.88638237847222,
+      "laplacian_variance_384x240": 860.1884469678668,
+      "clipped_fraction": 0.06744140625,
+      "dhash": "d6dce566aeaaaded",
+      "flags": []
+    },
+    {
+      "frame_index": 120,
+      "timestamp_s": 4.0,
+      "camera": "aux_right",
+      "mean_luminance": 85.30839279513889,
+      "laplacian_variance_384x240": 494.84375128746035,
+      "clipped_fraction": 0.1299253472222222,
+      "dhash": "c3cbeaeea7bdcd4c",
+      "flags": []
+    },
+    {
+      "frame_index": 150,
+      "timestamp_s": 5.0,
+      "camera": "aux_right",
+      "mean_luminance": 107.14556684027778,
+      "laplacian_variance_384x240": 1339.1166053459972,
+      "clipped_fraction": 0.027249131944444446,
+      "dhash": "e5761277555d6c4c",
+      "flags": []
+    },
+    {
+      "frame_index": 180,
+      "timestamp_s": 6.0,
+      "camera": "aux_right",
+      "mean_luminance": 122.85580729166666,
+      "laplacian_variance_384x240": 719.1690421982753,
+      "clipped_fraction": 0.045846788194444446,
+      "dhash": "bcd696fbe5ad55cd",
+      "flags": []
+    },
+    {
+      "frame_index": 210,
+      "timestamp_s": 7.0,
+      "camera": "aux_right",
+      "mean_luminance": 115.19883116319444,
+      "laplacian_variance_384x240": 1426.6494443397755,
+      "clipped_fraction": 0.037305121527777776,
+      "dhash": "dcdedefea9a5d5cc",
+      "flags": []
+    },
+    {
+      "frame_index": 240,
+      "timestamp_s": 8.0,
+      "camera": "aux_right",
+      "mean_luminance": 100.06796961805556,
+      "laplacian_variance_384x240": 1266.9251939519245,
+      "clipped_fraction": 0.04615104166666667,
+      "dhash": "ece5eaee5abfed4c",
+      "flags": []
+    },
+    {
+      "frame_index": 270,
+      "timestamp_s": 9.0,
+      "camera": "aux_right",
+      "mean_luminance": 95.34900607638889,
+      "laplacian_variance_384x240": 1143.4124108867884,
+      "clipped_fraction": 0.076421875,
+      "dhash": "eecaeff6aebbed4d",
+      "flags": []
+    },
+    {
+      "frame_index": 300,
+      "timestamp_s": 10.0,
+      "camera": "aux_right",
+      "mean_luminance": 96.97949739583333,
+      "laplacian_variance_384x240": 1412.6213515329948,
+      "clipped_fraction": 0.06604340277777777,
+      "dhash": "e4f5e5575fd9ecca",
+      "flags": []
+    },
+    {
+      "frame_index": 330,
+      "timestamp_s": 11.0,
+      "camera": "aux_right",
+      "mean_luminance": 93.19559071180555,
+      "laplacian_variance_384x240": 1348.5379897212983,
+      "clipped_fraction": 0.07659982638888889,
+      "dhash": "e7abebe2fa7dcd4c",
+      "flags": []
+    },
+    {
+      "frame_index": 360,
+      "timestamp_s": 12.0,
+      "camera": "aux_right",
+      "mean_luminance": 96.67820355902778,
+      "laplacian_variance_384x240": 1376.4083742154676,
+      "clipped_fraction": 0.055553819444444444,
+      "dhash": "f6b6f75757dd4e4e",
+      "flags": []
+    },
+    {
+      "frame_index": 390,
+      "timestamp_s": 13.0,
+      "camera": "aux_right",
+      "mean_luminance": 94.47320529513888,
+      "laplacian_variance_384x240": 1389.0597968202756,
+      "clipped_fraction": 0.07750954861111112,
+      "dhash": "c3a9f4f6d7dded4c",
+      "flags": []
+    },
+    {
+      "frame_index": 420,
+      "timestamp_s": 14.0,
+      "camera": "aux_right",
+      "mean_luminance": 98.8654001736111,
+      "laplacian_variance_384x240": 1453.5800951629217,
+      "clipped_fraction": 0.06581553819444444,
+      "dhash": "f2a6b5f757dd6cca",
+      "flags": []
+    },
+    {
+      "frame_index": 450,
+      "timestamp_s": 15.0,
+      "camera": "aux_right",
+      "mean_luminance": 107.32612152777777,
+      "laplacian_variance_384x240": 1761.0619663067805,
+      "clipped_fraction": 0.03718098958333333,
+      "dhash": "a4f7f5f757dcae6a",
+      "flags": []
+    },
+    {
+      "frame_index": 480,
+      "timestamp_s": 16.0,
+      "camera": "aux_right",
+      "mean_luminance": 107.52586328125,
+      "laplacian_variance_384x240": 1457.104031150606,
+      "clipped_fraction": 0.03267100694444444,
+      "dhash": "f6b6b7f757dd6cee",
+      "flags": []
+    },
+    {
+      "frame_index": 510,
+      "timestamp_s": 17.0,
+      "camera": "aux_right",
+      "mean_luminance": 100.25726215277778,
+      "laplacian_variance_384x240": 1325.830369844672,
+      "clipped_fraction": 0.041345486111111114,
+      "dhash": "eae2b2d657dd8cee",
+      "flags": []
+    },
+    {
+      "frame_index": 540,
+      "timestamp_s": 18.0,
+      "camera": "aux_right",
+      "mean_luminance": 100.39490147569444,
+      "laplacian_variance_384x240": 1439.7313045613562,
+      "clipped_fraction": 0.08654079861111111,
+      "dhash": "e3e2eae65bd5edcc",
+      "flags": []
+    },
+    {
+      "frame_index": 570,
+      "timestamp_s": 19.0,
+      "camera": "aux_right",
+      "mean_luminance": 93.51543272569444,
+      "laplacian_variance_384x240": 1478.6696234733674,
+      "clipped_fraction": 0.054101128472222225,
+      "dhash": "edeef5f757ddecec",
+      "flags": []
+    },
+    {
+      "frame_index": 600,
+      "timestamp_s": 20.0,
+      "camera": "aux_right",
+      "mean_luminance": 95.76427083333333,
+      "laplacian_variance_384x240": 1502.3595909735595,
+      "clipped_fraction": 0.07164192708333333,
+      "dhash": "e22aeaf6575dccee",
+      "flags": []
+    },
+    {
+      "frame_index": 630,
+      "timestamp_s": 21.0,
+      "camera": "aux_right",
+      "mean_luminance": 96.50181119791667,
+      "laplacian_variance_384x240": 1645.0403300107553,
+      "clipped_fraction": 0.06937847222222222,
+      "dhash": "ec76d7d7575cecee",
+      "flags": []
+    },
+    {
+      "frame_index": 660,
+      "timestamp_s": 22.0,
+      "camera": "aux_right",
+      "mean_luminance": 97.46765755208334,
+      "laplacian_variance_384x240": 1428.6296630181207,
+      "clipped_fraction": 0.041199652777777776,
+      "dhash": "f693f577d4fcaeec",
+      "flags": []
+    },
+    {
+      "frame_index": 690,
+      "timestamp_s": 23.0,
+      "camera": "aux_right",
+      "mean_luminance": 100.05723914930556,
+      "laplacian_variance_384x240": 1558.5425357393574,
+      "clipped_fraction": 0.06758289930555555,
+      "dhash": "e4a6eaefdf5deeea",
+      "flags": []
+    },
+    {
+      "frame_index": 720,
+      "timestamp_s": 24.0,
+      "camera": "aux_right",
+      "mean_luminance": 98.5102990451389,
+      "laplacian_variance_384x240": 1532.4162660244365,
+      "clipped_fraction": 0.06343532986111111,
+      "dhash": "e4fae6f7d74de4ea",
+      "flags": []
+    },
+    {
+      "frame_index": 750,
+      "timestamp_s": 25.0,
+      "camera": "aux_right",
+      "mean_luminance": 99.09548958333333,
+      "laplacian_variance_384x240": 1434.5396807464554,
+      "clipped_fraction": 0.045123697916666664,
+      "dhash": "e6a4edd255ddd5ee",
+      "flags": []
+    },
+    {
+      "frame_index": 780,
+      "timestamp_s": 26.0,
+      "camera": "aux_right",
+      "mean_luminance": 102.71047699652777,
+      "laplacian_variance_384x240": 1388.0118038601347,
+      "clipped_fraction": 0.045260850694444445,
+      "dhash": "e6e6e66e555dddee",
+      "flags": []
+    },
+    {
+      "frame_index": 810,
+      "timestamp_s": 27.0,
+      "camera": "aux_right",
+      "mean_luminance": 85.78645052083333,
+      "laplacian_variance_384x240": 1175.9575756944255,
+      "clipped_fraction": 0.10576822916666667,
+      "dhash": "e3f3a7b75f5d4cec",
+      "flags": []
+    },
+    {
+      "frame_index": 840,
+      "timestamp_s": 28.0,
+      "camera": "aux_right",
+      "mean_luminance": 97.47211631944444,
+      "laplacian_variance_384x240": 1756.885738784884,
+      "clipped_fraction": 0.06546744791666667,
+      "dhash": "f6f2f7f7dd7e6eee",
+      "flags": []
+    },
+    {
+      "frame_index": 870,
+      "timestamp_s": 29.0,
+      "camera": "aux_right",
+      "mean_luminance": 99.46592491319444,
+      "laplacian_variance_384x240": 1681.6663358542364,
+      "clipped_fraction": 0.06919704861111112,
+      "dhash": "abeaf2b75755dc6c",
+      "flags": []
+    },
+    {
+      "frame_index": 900,
+      "timestamp_s": 30.0,
+      "camera": "aux_right",
+      "mean_luminance": 80.72942404513888,
+      "laplacian_variance_384x240": 647.7868293327756,
+      "clipped_fraction": 0.12841623263888888,
+      "dhash": "eae2eaf6967f5bed",
+      "flags": []
+    },
+    {
+      "frame_index": 930,
+      "timestamp_s": 31.0,
+      "camera": "aux_right",
+      "mean_luminance": 109.09881727430556,
+      "laplacian_variance_384x240": 1334.3700329208377,
+      "clipped_fraction": 0.07711979166666667,
+      "dhash": "ebeaf5b7d7dceeec",
+      "flags": []
+    },
+    {
+      "frame_index": 960,
+      "timestamp_s": 32.0,
+      "camera": "aux_right",
+      "mean_luminance": 99.09665885416666,
+      "laplacian_variance_384x240": 1053.735168185764,
+      "clipped_fraction": 0.05883203125,
+      "dhash": "eee46e6a5e7dcdec",
+      "flags": []
+    },
+    {
+      "frame_index": 990,
+      "timestamp_s": 33.0,
+      "camera": "aux_right",
+      "mean_luminance": 109.43312543402777,
+      "laplacian_variance_384x240": 1072.8136170440252,
+      "clipped_fraction": 0.06356553819444444,
+      "dhash": "ceceacedeaaeeaed",
+      "flags": []
+    },
+    {
+      "frame_index": 1020,
+      "timestamp_s": 34.0,
+      "camera": "aux_right",
+      "mean_luminance": 97.85062803819444,
+      "laplacian_variance_384x240": 911.5770252226605,
+      "clipped_fraction": 0.039753038194444444,
+      "dhash": "f596f777d5dcecec",
+      "flags": []
+    },
+    {
+      "frame_index": 1050,
+      "timestamp_s": 35.0,
+      "camera": "aux_right",
+      "mean_luminance": 105.59236241319445,
+      "laplacian_variance_384x240": 1085.5385841157702,
+      "clipped_fraction": 0.042615885416666666,
+      "dhash": "eefaf7d7d55decea",
+      "flags": []
+    },
+    {
+      "frame_index": 1080,
+      "timestamp_s": 36.0,
+      "camera": "aux_right",
+      "mean_luminance": 101.51459027777778,
+      "laplacian_variance_384x240": 854.8519504759047,
+      "clipped_fraction": 0.04352473958333333,
+      "dhash": "4c6c6f6e5e7d4d6c",
+      "flags": []
+    },
+    {
+      "frame_index": 1110,
+      "timestamp_s": 37.0,
+      "camera": "aux_right",
+      "mean_luminance": 103.51868836805555,
+      "laplacian_variance_384x240": 723.6747278265304,
+      "clipped_fraction": 0.07118012152777778,
+      "dhash": "cedeecedeabeeaed",
+      "flags": []
+    },
+    {
+      "frame_index": 1140,
+      "timestamp_s": 38.0,
+      "camera": "aux_right",
+      "mean_luminance": 94.11814409722223,
+      "laplacian_variance_384x240": 1321.9372693092444,
+      "clipped_fraction": 0.05348046875,
+      "dhash": "f496f777cdfcecac",
+      "flags": []
+    },
+    {
+      "frame_index": 1170,
+      "timestamp_s": 39.0,
+      "camera": "aux_right",
+      "mean_luminance": 109.80646744791666,
+      "laplacian_variance_384x240": 569.3629066127022,
+      "clipped_fraction": 0.05677734375,
+      "dhash": "dedcedeeee9aedcd",
+      "flags": []
+    },
+    {
+      "frame_index": 1200,
+      "timestamp_s": 40.0,
+      "camera": "aux_right",
+      "mean_luminance": 106.77166840277778,
+      "laplacian_variance_384x240": 947.1108884453479,
+      "clipped_fraction": 0.05347482638888889,
+      "dhash": "bcbcdccef4ecaeae",
+      "flags": []
+    },
+    {
+      "frame_index": 1230,
+      "timestamp_s": 41.0,
+      "camera": "aux_right",
+      "mean_luminance": 83.00636067708334,
+      "laplacian_variance_384x240": 977.005598954095,
+      "clipped_fraction": 0.11824696180555555,
+      "dhash": "66ebeaf757dfddec",
+      "flags": []
+    },
+    {
+      "frame_index": 1260,
+      "timestamp_s": 42.0,
+      "camera": "aux_right",
+      "mean_luminance": 101.38774175347223,
+      "laplacian_variance_384x240": 1607.3442558834877,
+      "clipped_fraction": 0.038075086805555554,
+      "dhash": "f5b2f67757dcecee",
+      "flags": []
+    },
+    {
+      "frame_index": 1290,
+      "timestamp_s": 43.0,
+      "camera": "aux_right",
+      "mean_luminance": 113.18728689236112,
+      "laplacian_variance_384x240": 1534.6877017550999,
+      "clipped_fraction": 0.0531484375,
+      "dhash": "bcd5d6eebaaaedcf",
+      "flags": []
+    },
+    {
+      "frame_index": 1320,
+      "timestamp_s": 44.0,
+      "camera": "aux_right",
+      "mean_luminance": 108.32645182291667,
+      "laplacian_variance_384x240": 1046.838421748479,
+      "clipped_fraction": 0.050941840277777775,
+      "dhash": "bcdcce66ecaeaead",
+      "flags": []
+    },
+    {
+      "frame_index": 1350,
+      "timestamp_s": 45.0,
+      "camera": "aux_right",
+      "mean_luminance": 101.69069618055556,
+      "laplacian_variance_384x240": 794.8246414889818,
+      "clipped_fraction": 0.07164887152777778,
+      "dhash": "cedeece5eeaeaaaf",
+      "flags": []
+    },
+    {
+      "frame_index": 1380,
+      "timestamp_s": 46.0,
+      "camera": "aux_right",
+      "mean_luminance": 106.90382421875,
+      "laplacian_variance_384x240": 1494.9655742386242,
+      "clipped_fraction": 0.021075520833333333,
+      "dhash": "663636774d7e666e",
+      "flags": []
+    },
+    {
+      "frame_index": 1410,
+      "timestamp_s": 47.0,
+      "camera": "aux_right",
+      "mean_luminance": 110.96562934027777,
+      "laplacian_variance_384x240": 906.6623046832615,
+      "clipped_fraction": 0.05030251736111111,
+      "dhash": "acecdceeecaeaaad",
+      "flags": []
+    },
+    {
+      "frame_index": 1440,
+      "timestamp_s": 48.0,
+      "camera": "aux_right",
+      "mean_luminance": 103.09055295138889,
+      "laplacian_variance_384x240": 932.9358671960714,
+      "clipped_fraction": 0.07218880208333334,
+      "dhash": "9cdeac6decaeeaaf",
+      "flags": []
+    },
+    {
+      "frame_index": 1470,
+      "timestamp_s": 49.0,
+      "camera": "aux_right",
+      "mean_luminance": 81.15683463541667,
+      "laplacian_variance_384x240": 1120.778373412026,
+      "clipped_fraction": 0.11327604166666666,
+      "dhash": "e9ebb2f5575decec",
+      "flags": []
+    },
+    {
+      "frame_index": 1500,
+      "timestamp_s": 50.0,
+      "camera": "aux_right",
+      "mean_luminance": 104.99312543402777,
+      "laplacian_variance_384x240": 1714.3738161203596,
+      "clipped_fraction": 0.040556423611111114,
+      "dhash": "f6f2f6754cdee4ae",
+      "flags": []
+    },
+    {
+      "frame_index": 1530,
+      "timestamp_s": 51.0,
+      "camera": "aux_right",
+      "mean_luminance": 107.64957899305556,
+      "laplacian_variance_384x240": 448.0190027014415,
+      "clipped_fraction": 0.054848090277777775,
+      "dhash": "dcdde7eeae9ded6d",
+      "flags": []
+    },
+    {
+      "frame_index": 1560,
+      "timestamp_s": 52.0,
+      "camera": "aux_right",
+      "mean_luminance": 107.19937630208334,
+      "laplacian_variance_384x240": 1071.6665203460645,
+      "clipped_fraction": 0.06429774305555555,
+      "dhash": "bebeccaeecbeaaad",
+      "flags": []
+    },
+    {
+      "frame_index": 1590,
+      "timestamp_s": 53.0,
+      "camera": "aux_right",
+      "mean_luminance": 104.07979470486111,
+      "laplacian_variance_384x240": 1329.4774474663207,
+      "clipped_fraction": 0.029151475694444446,
+      "dhash": "b63375754dfaacee",
+      "flags": []
+    },
+    {
+      "frame_index": 1620,
+      "timestamp_s": 54.0,
+      "camera": "aux_right",
+      "mean_luminance": 104.91978993055555,
+      "laplacian_variance_384x240": 1051.988380260703,
+      "clipped_fraction": 0.06158767361111111,
+      "dhash": "bedcec66ecaeaead",
+      "flags": []
+    },
+    {
+      "frame_index": 1650,
+      "timestamp_s": 55.0,
+      "camera": "aux_right",
+      "mean_luminance": 97.33685460069445,
+      "laplacian_variance_384x240": 682.5275623226165,
+      "clipped_fraction": 0.08721267361111111,
+      "dhash": "de9eeeedeebeeaed",
+      "flags": []
+    },
+    {
+      "frame_index": 1680,
+      "timestamp_s": 56.0,
+      "camera": "aux_right",
+      "mean_luminance": 104.9844201388889,
+      "laplacian_variance_384x240": 1501.7866633643634,
+      "clipped_fraction": 0.03071527777777778,
+      "dhash": "6d167655575c2c2e",
+      "flags": []
+    },
+    {
+      "frame_index": 1710,
+      "timestamp_s": 57.0,
+      "camera": "aux_right",
+      "mean_luminance": 112.92832161458334,
+      "laplacian_variance_384x240": 700.1514722413192,
+      "clipped_fraction": 0.04509027777777778,
+      "dhash": "d68ee46b5e5bedcd",
+      "flags": []
+    },
+    {
+      "frame_index": 1740,
+      "timestamp_s": 58.0,
+      "camera": "aux_right",
+      "mean_luminance": 105.72759375,
+      "laplacian_variance_384x240": 1028.2312601158942,
+      "clipped_fraction": 0.053795572916666666,
+      "dhash": "9c5e5cedeebe9aad",
+      "flags": []
+    },
+    {
+      "frame_index": 1770,
+      "timestamp_s": 59.0,
+      "camera": "aux_right",
+      "mean_luminance": 94.77032291666667,
+      "laplacian_variance_384x240": 738.4933216570631,
+      "clipped_fraction": 0.10155425347222222,
+      "dhash": "d6de6cefee9ee9ed",
+      "flags": []
+    },
+    {
+      "frame_index": 1800,
+      "timestamp_s": 60.0,
+      "camera": "aux_right",
+      "mean_luminance": 98.56251649305555,
+      "laplacian_variance_384x240": 1761.1309569972238,
+      "clipped_fraction": 0.04261284722222222,
+      "dhash": "f6b2f577cddaa6ac",
+      "flags": []
+    },
+    {
+      "frame_index": 1830,
+      "timestamp_s": 61.0,
+      "camera": "aux_right",
+      "mean_luminance": 113.17179513888888,
+      "laplacian_variance_384x240": 920.9990939829087,
+      "clipped_fraction": 0.04965625,
+      "dhash": "9eded4edee9e9fed",
+      "flags": []
+    },
+    {
+      "frame_index": 1860,
+      "timestamp_s": 62.0,
+      "camera": "aux_right",
+      "mean_luminance": 93.77459809027778,
+      "laplacian_variance_384x240": 609.4473701447616,
+      "clipped_fraction": 0.1046015625,
+      "dhash": "de9ee4edaa9aabed",
+      "flags": []
+    },
+    {
+      "frame_index": 1890,
+      "timestamp_s": 63.0,
+      "camera": "aux_right",
+      "mean_luminance": 108.29034375,
+      "laplacian_variance_384x240": 1463.4774270656965,
+      "clipped_fraction": 0.025092881944444444,
+      "dhash": "5675756a6d3a627e",
+      "flags": []
+    },
+    {
+      "frame_index": 1920,
+      "timestamp_s": 64.0,
+      "camera": "aux_right",
+      "mean_luminance": 100.51796050347222,
+      "laplacian_variance_384x240": 1101.6781668726603,
+      "clipped_fraction": 0.038751302083333335,
+      "dhash": "eeeef9f7dffdf4ec",
+      "flags": []
+    },
+    {
+      "frame_index": 1950,
+      "timestamp_s": 65.0,
+      "camera": "aux_right",
+      "mean_luminance": 101.56483810763889,
+      "laplacian_variance_384x240": 991.9939720959133,
+      "clipped_fraction": 0.07045703125,
+      "dhash": "ae5edce56b9e9eef",
+      "flags": []
+    },
+    {
+      "frame_index": 1980,
+      "timestamp_s": 66.0,
+      "camera": "aux_right",
+      "mean_luminance": 104.25529557291667,
+      "laplacian_variance_384x240": 662.5313660373217,
+      "clipped_fraction": 0.06615060763888889,
+      "dhash": "bebe9edeeeaeaaae",
+      "flags": []
+    },
+    {
+      "frame_index": 2010,
+      "timestamp_s": 67.0,
+      "camera": "aux_right",
+      "mean_luminance": 120.76623784722223,
+      "laplacian_variance_384x240": 1395.2175233740868,
+      "clipped_fraction": 0.01239670138888889,
+      "dhash": "75b6b5b52d7b646e",
+      "flags": []
+    },
+    {
+      "frame_index": 2040,
+      "timestamp_s": 68.0,
+      "camera": "aux_right",
+      "mean_luminance": 108.14271831597222,
+      "laplacian_variance_384x240": 948.2810503640588,
+      "clipped_fraction": 0.04681987847222222,
+      "dhash": "1e5e5c6c6e2e1aaf",
+      "flags": []
+    },
+    {
+      "frame_index": 2070,
+      "timestamp_s": 69.0,
+      "camera": "aux_right",
+      "mean_luminance": 83.38362586805556,
+      "laplacian_variance_384x240": 722.776736018805,
+      "clipped_fraction": 0.09562934027777778,
+      "dhash": "eee39af2575bddac",
+      "flags": []
+    },
+    {
+      "frame_index": 2100,
+      "timestamp_s": 70.0,
+      "camera": "aux_right",
+      "mean_luminance": 118.31595963541666,
+      "laplacian_variance_384x240": 644.7939297898611,
+      "clipped_fraction": 0.08325520833333333,
+      "dhash": "eaeea97757dcecec",
+      "flags": []
+    },
+    {
+      "frame_index": 2130,
+      "timestamp_s": 71.0,
+      "camera": "aux_right",
+      "mean_luminance": 105.29746527777777,
+      "laplacian_variance_384x240": 1091.5751852299256,
+      "clipped_fraction": 0.046575086805555554,
+      "dhash": "5e4e26775e5a6f4d",
+      "flags": []
+    },
+    {
+      "frame_index": 2160,
+      "timestamp_s": 72.0,
+      "camera": "aux_right",
+      "mean_luminance": 117.46898350694444,
+      "laplacian_variance_384x240": 1518.726980756124,
+      "clipped_fraction": 0.024856336805555556,
+      "dhash": "557673764d4c6e6c",
+      "flags": []
+    },
+    {
+      "frame_index": 2190,
+      "timestamp_s": 73.0,
+      "camera": "aux_right",
+      "mean_luminance": 108.65452777777777,
+      "laplacian_variance_384x240": 797.2174936448793,
+      "clipped_fraction": 0.04342925347222222,
+      "dhash": "ceee6cf69aadefee",
+      "flags": []
+    },
+    {
+      "frame_index": 2220,
+      "timestamp_s": 74.0,
+      "camera": "aux_right",
+      "mean_luminance": 102.65628385416667,
+      "laplacian_variance_384x240": 2076.1029402404365,
+      "clipped_fraction": 0.04292013888888889,
+      "dhash": "cc6c6dfad9adedec",
+      "flags": []
+    },
+    {
+      "frame_index": 2250,
+      "timestamp_s": 75.0,
+      "camera": "aux_right",
+      "mean_luminance": 104.43488151041667,
+      "laplacian_variance_384x240": 1020.354403074288,
+      "clipped_fraction": 0.07159114583333333,
+      "dhash": "d4d66df7f85446ec",
+      "flags": []
+    },
+    {
+      "frame_index": 2280,
+      "timestamp_s": 76.0,
+      "camera": "aux_right",
+      "mean_luminance": 104.42794227430555,
+      "laplacian_variance_384x240": 1603.346112437307,
+      "clipped_fraction": 0.07596614583333333,
+      "dhash": "d2ee6aa9e5d4efcc",
+      "flags": []
+    },
+    {
+      "frame_index": 2310,
+      "timestamp_s": 77.0,
+      "camera": "aux_right",
+      "mean_luminance": 113.28589626736111,
+      "laplacian_variance_384x240": 1194.1145052958125,
+      "clipped_fraction": 0.04705946180555556,
+      "dhash": "a474f6eab7efcddf",
+      "flags": []
+    },
+    {
+      "frame_index": 2340,
+      "timestamp_s": 78.0,
+      "camera": "aux_right",
+      "mean_luminance": 108.76030815972223,
+      "laplacian_variance_384x240": 812.1709168794421,
+      "clipped_fraction": 0.03608376736111111,
+      "dhash": "fc58d5eefeabed6d",
+      "flags": []
+    },
+    {
+      "frame_index": 2370,
+      "timestamp_s": 79.0,
+      "camera": "aux_right",
+      "mean_luminance": 112.54876649305555,
+      "laplacian_variance_384x240": 1501.958850602044,
+      "clipped_fraction": 0.04096701388888889,
+      "dhash": "ecf974dacecbadec",
+      "flags": []
+    },
+    {
+      "frame_index": 2400,
+      "timestamp_s": 80.0,
+      "camera": "aux_right",
+      "mean_luminance": 103.28771006944444,
+      "laplacian_variance_384x240": 487.75313584963476,
+      "clipped_fraction": 0.007332899305555555,
+      "dhash": "afc6e616d6f6feee",
+      "flags": []
+    },
+    {
+      "frame_index": 2430,
+      "timestamp_s": 81.0,
+      "camera": "aux_right",
+      "mean_luminance": 117.79073046875,
+      "laplacian_variance_384x240": 508.81694351938035,
+      "clipped_fraction": 0.005125868055555555,
+      "dhash": "502088badb526cea",
+      "flags": []
+    },
+    {
+      "frame_index": 2460,
+      "timestamp_s": 82.0,
+      "camera": "aux_right",
+      "mean_luminance": 114.16805555555555,
+      "laplacian_variance_384x240": 414.9333496629456,
+      "clipped_fraction": 0.014029513888888888,
+      "dhash": "95d949ca94ada92a",
+      "flags": []
+    },
+    {
+      "frame_index": 2490,
+      "timestamp_s": 83.0,
+      "camera": "aux_right",
+      "mean_luminance": 134.41820182291667,
+      "laplacian_variance_384x240": 278.67796575652227,
+      "clipped_fraction": 0.02669357638888889,
+      "dhash": "33712184a4d86878",
+      "flags": []
+    },
+    {
+      "frame_index": 2520,
+      "timestamp_s": 84.0,
+      "camera": "aux_right",
+      "mean_luminance": 116.5898611111111,
+      "laplacian_variance_384x240": 1103.5242898417107,
+      "clipped_fraction": 0.00940234375,
+      "dhash": "badab4ec5e6aefce",
+      "flags": []
+    },
+    {
+      "frame_index": 2550,
+      "timestamp_s": 85.0,
+      "camera": "aux_right",
+      "mean_luminance": 121.03594097222222,
+      "laplacian_variance_384x240": 643.778951338662,
+      "clipped_fraction": 0.01864626736111111,
+      "dhash": "dcd6ee4eeeebadaf",
+      "flags": []
+    },
+    {
+      "frame_index": 2580,
+      "timestamp_s": 86.0,
+      "camera": "aux_right",
+      "mean_luminance": 86.17082552083333,
+      "laplacian_variance_384x240": 471.20491375098993,
+      "clipped_fraction": 0.021791666666666668,
+      "dhash": "b25125b6b875383c",
+      "flags": []
+    },
+    {
+      "frame_index": 2610,
+      "timestamp_s": 87.0,
+      "camera": "aux_right",
+      "mean_luminance": 127.6140959201389,
+      "laplacian_variance_384x240": 402.1259367105695,
+      "clipped_fraction": 0.03956944444444444,
+      "dhash": "a3c32d50b8d1793d",
+      "flags": []
+    },
+    {
+      "frame_index": 2640,
+      "timestamp_s": 88.0,
+      "camera": "aux_right",
+      "mean_luminance": 104.38220355902777,
+      "laplacian_variance_384x240": 784.9476451816089,
+      "clipped_fraction": 0.015536892361111112,
+      "dhash": "eae9b4f65abacf8d",
+      "flags": []
+    },
+    {
+      "frame_index": 2670,
+      "timestamp_s": 89.0,
+      "camera": "aux_right",
+      "mean_luminance": 107.28952777777778,
+      "laplacian_variance_384x240": 1070.679882755515,
+      "clipped_fraction": 0.016940538194444445,
+      "dhash": "f4e6fa5edbab4dcc",
+      "flags": []
+    },
+    {
+      "frame_index": 2700,
+      "timestamp_s": 90.0,
+      "camera": "aux_right",
+      "mean_luminance": 106.15630598958333,
+      "laplacian_variance_384x240": 485.32687047840625,
+      "clipped_fraction": 0.007020399305555556,
+      "dhash": "b5c3b2d7363a7ebb",
+      "flags": []
+    },
+    {
+      "frame_index": 2730,
+      "timestamp_s": 91.0,
+      "camera": "aux_right",
+      "mean_luminance": 117.92970442708334,
+      "laplacian_variance_384x240": 780.8141275471819,
+      "clipped_fraction": 0.012165798611111112,
+      "dhash": "6028d2995a4cbaaa",
+      "flags": []
+    },
+    {
+      "frame_index": 2760,
+      "timestamp_s": 92.0,
+      "camera": "aux_right",
+      "mean_luminance": 137.23005555555557,
+      "laplacian_variance_384x240": 344.2034151401048,
+      "clipped_fraction": 0.06607682291666667,
+      "dhash": "422391c9733b5b9b",
+      "flags": []
+    },
+    {
+      "frame_index": 2790,
+      "timestamp_s": 93.0,
+      "camera": "aux_right",
+      "mean_luminance": 111.01654340277778,
+      "laplacian_variance_384x240": 696.0570222123464,
+      "clipped_fraction": 0.041549045138888886,
+      "dhash": "eecfeae7ddace4cc",
+      "flags": []
+    },
+    {
+      "frame_index": 2820,
+      "timestamp_s": 94.0,
+      "camera": "aux_right",
+      "mean_luminance": 112.623625,
+      "laplacian_variance_384x240": 1317.0161142277425,
+      "clipped_fraction": 0.03355772569444444,
+      "dhash": "cceeeeeeafad4dcc",
+      "flags": []
+    },
+    {
+      "frame_index": 2850,
+      "timestamp_s": 95.0,
+      "camera": "aux_right",
+      "mean_luminance": 98.24313107638889,
+      "laplacian_variance_384x240": 421.897191109363,
+      "clipped_fraction": 0.00827126736111111,
+      "dhash": "c476a3c3335b7b1b",
+      "flags": []
+    },
+    {
+      "frame_index": 2880,
+      "timestamp_s": 96.0,
+      "camera": "aux_right",
+      "mean_luminance": 118.168671875,
+      "laplacian_variance_384x240": 947.7523002794054,
+      "clipped_fraction": 0.002743923611111111,
+      "dhash": "51208cb6da506ca9",
+      "flags": []
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+[
+  {
+    "episode_id": 0,
+    "task": "ironing clothes",
+    "duration_s": 279.03333333333336,
+    "frame_count": 8371,
+    "video_available": false,
+    "quarantined_frames": 964,
+    "flagged_frames": 6944,
+    "qa_flags": [
+      "bone_length_outlier",
+      "reprojection_extreme",
+      "reprojection_residual"
+    ],
+    "source_task_index": 0,
+    "reconciled_task_index": 0,
+    "segments": 384,
+    "imu_samples": 167279
+  },
+  {
+    "episode_id": 1,
+    "task": "folding laundry",
+    "duration_s": 131.03333333333333,
+    "frame_count": 3931,
+    "video_available": false,
+    "quarantined_frames": 58,
+    "flagged_frames": 2925,
+    "qa_flags": [
+      "bone_length_outlier",
+      "hand_unobserved",
+      "reprojection_extreme",
+      "reprojection_residual"
+    ],
+    "source_task_index": 1,
+    "reconciled_task_index": 1,
+    "segments": 124,
+    "imu_samples": 78543
+  },
+  {
+    "episode_id": 2,
+    "task": "wiping",
+    "duration_s": 240.03333333333333,
+    "frame_count": 7201,
+    "video_available": false,
+    "quarantined_frames": 565,
+    "flagged_frames": 5377,
+    "qa_flags": [
+      "bone_length_outlier",
+      "hand_unobserved",
+      "reprojection_extreme",
+      "reprojection_residual",
+      "tracking_flag_conflict",
+      "wrist_speed_outlier"
+    ],
+    "source_task_index": 0,
+    "reconciled_task_index": 2,
+    "segments": 294,
+    "imu_samples": 143899
+  },
+  {
+    "episode_id": 3,
+    "task": "washing dishes",
+    "duration_s": 308.03333333333336,
+    "frame_count": 9241,
+    "video_available": false,
+    "quarantined_frames": 87,
+    "flagged_frames": 5593,
+    "qa_flags": [
+      "bone_length_outlier",
+      "reprojection_extreme",
+      "reprojection_residual"
+    ],
+    "source_task_index": 3,
+    "reconciled_task_index": 3,
+    "segments": 194,
+    "imu_samples": 184674
+  },
+  {
+    "episode_id": 4,
+    "task": "slicing carrots",
+    "duration_s": 96.8,
+    "frame_count": 2904,
+    "video_available": true,
+    "quarantined_frames": 0,
+    "flagged_frames": 745,
+    "qa_flags": [
+      "bone_length_outlier",
+      "reprojection_residual"
+    ],
+    "source_task_index": 4,
+    "reconciled_task_index": 4,
+    "segments": 123,
+    "imu_samples": 58022
+  },
+  {
+    "episode_id": 5,
+    "task": "peeling and slicing cucumbers",
+    "duration_s": 160.03333333333333,
+    "frame_count": 4801,
+    "video_available": false,
+    "quarantined_frames": 0,
+    "flagged_frames": 755,
+    "qa_flags": [
+      "reprojection_residual"
+    ],
+    "source_task_index": 5,
+    "reconciled_task_index": 5,
+    "segments": 219,
+    "imu_samples": 95937
+  },
+  {
+    "episode_id": 6,
+    "task": "pouring cereal into a container",
+    "duration_s": 107.03333333333333,
+    "frame_count": 3211,
+    "video_available": false,
+    "quarantined_frames": 89,
+    "flagged_frames": 1395,
+    "qa_flags": [
+      "bone_length_outlier",
+      "reprojection_extreme",
+      "reprojection_residual"
+    ],
+    "source_task_index": 6,
+    "reconciled_task_index": 6,
+    "segments": 158,
+    "imu_samples": 64158
+  },
+  {
+    "episode_id": 7,
+    "task": "washing dishes",
+    "duration_s": 120.03333333333333,
+    "frame_count": 3601,
+    "video_available": false,
+    "quarantined_frames": 0,
+    "flagged_frames": 1349,
+    "qa_flags": [
+      "bone_length_outlier",
+      "reprojection_residual"
+    ],
+    "source_task_index": 3,
+    "reconciled_task_index": 3,
+    "segments": 117,
+    "imu_samples": 71946
+  },
+  {
+    "episode_id": 8,
+    "task": "cutting an apple",
+    "duration_s": 167.03333333333333,
+    "frame_count": 5011,
+    "video_available": false,
+    "quarantined_frames": 89,
+    "flagged_frames": 1431,
+    "qa_flags": [
+      "bone_length_outlier",
+      "reprojection_extreme",
+      "reprojection_residual"
+    ],
+    "source_task_index": 7,
+    "reconciled_task_index": 7,
+    "segments": 191,
+    "imu_samples": 100138
+  }
+]

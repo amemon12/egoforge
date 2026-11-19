@@ -1,0 +1,11 @@
+{
+  "benchmark_id": "54d58eeb004f668b",
+  "artifacts": {
+    "benchmark.json": "7f6b60dcb74da91e527c6b9ad24c928a8e1d4565589b46dc831d73ddb057fc71",
+    "performance.csv": "a2b1a653886e40ba662e452617dad9511c9ebe66bb71f592a93d2c6dfa42dac4",
+    "performance_pass_01.json": "6040a409338b9ecd2cd2ae7b693132bc9140e22528c53553fa9abf2852edf3ff",
+    "performance_pass_02.json": "cc5ca8905c9c243c1d11ec2f3a1fb44660f26e13fbe9572146f4f7c750e9f88f",
+    "performance_pass_03.json": "0256b45bdf34e5ff8bd3d1bd16732bee2d26aae71244e78d6030d7e283bed410",
+    "robustness.csv": "90fd2ac9e91614f0e044c4f76e27c32864632b21775e09a41318e2627c0ac7ff"
+  }
+}

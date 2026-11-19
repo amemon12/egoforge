@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "fps": 30.0,
+  "reprojection_warn_px": 15.0,
+  "reprojection_fail_px": 50.0,
+  "transform_fail_m": 0.01,
+  "bone_relative_warn": 0.35,
+  "speed_warn_mps": 2.5,
+  "acceleration_warn_mps2": 40.0,
+  "quaternion_norm_tolerance": 0.01,
+  "smoothing_window_frames": 7,
+  "imu_gap_warn_s": 0.025,
+  "review_budget": 36,
+  "media_sample_stride": 30,
+  "ui_frame_stride": 3
+}
